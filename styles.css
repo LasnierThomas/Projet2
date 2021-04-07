@@ -1,26 +1,177 @@
 /* tête du site */
 
 .head
+{
+    display:flex;
+    Flex-flow: row wrap;
+    align-content: space-between;
+}
+#HeadPicture
+{
+   
+}
+.HeadMenu
+{
+  
+
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav li
+{
+    margin-right: 15px;
+}
 
 /* section1 */
 
+.Section1
+{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column wrap;
+
+}
+
+.Section1Serch
+
 .Filtre
+{
+ margin-right: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
 
 .FiltreTittle
-
+{
+    
+    
+}
 .Bouton
-
+{
+    
+    
+}
 .Boutonicone
+{
+    
+ 
+}
 
 .BoutonTittle
-
+{
+    
+   
+}
 .Information
 
 .InformationIcone
 
 /* section2 */
 
+.Section2and3
+{ 
+    border: black 2px solid;
+    display: flex;
+    
+
+   
+}
+
+.Section2
+{
+    background-color: #F2F2F2;
+    border: green 1px solid;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    
+    
+}
+
+.Section2Tittle
+
+.SectionTittle1
+
+.Section2GoupePicture1
+{
+
+}
+
+.Section2Picture1
+
+.Section2Tittle2
+
+{
+
+}
+
+.Section2StarPicture1
 
 /* section3 */
 
+.Section3
+{
+    background-color: #F2F2F2;
+    border: red 1px solid;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.Section3Tittle
+
+#Hebergement
+
+.Section3GoupePicture1
+
+.Section3Picture1
+
+.Section3Tittle2
+
+.Section3StarPicture1
+
+.Section3Bouton
+
+/* Section4 */
+
+.Section4
+{
+    border: yellow 1px solid;
+    display: flex;
+    
+
+    
+
+}
+.Section4Tittle
+
+#Activites
+
+.Section4GoupePicture1
+
+.Section4Picture1
+
+.Section4Tittle2
+
 /* footer */
+
+.Footer1
+
+.FooterTittle1
+
+.FooterApropos
+
+.FooterTittle2
+
+.FooterNoshebergements
+
+.FooterTittle3
+
+.FooterAssistance
