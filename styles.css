@@ -7,14 +7,9 @@
     align-content: space-between;
 }
 #HeadPicture
-{
-   
-}
-.HeadMenu
-{
-  
 
-}
+.HeadMenu
+
 nav ul
 {
     list-style-type: none;
@@ -49,26 +44,13 @@ nav li
 }
 
 .FiltreTittle
-{
-    
-    
-}
+
 .Bouton
-{
-    
-    
-}
+
 .Boutonicone
-{
-    
- 
-}
 
 .BoutonTittle
-{
-    
-   
-}
+
 .Information
 
 .InformationIcone
@@ -79,6 +61,7 @@ nav li
 { 
     border: black 2px solid;
     display: flex;
+  
     
 
    
@@ -88,31 +71,64 @@ nav li
 {
     background-color: #F2F2F2;
     border: green 1px solid;
+    
     display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-end;
+    flex-flow: wrap column;
+   
     
     
 }
 
 .Section2Tittle
-
+{
+    display: flex;
+    align-items: flex-start;
+  
+}
 .SectionTittle1
-
+{
+    display: flex;
+  
+}
 .Section2GoupePicture1
 {
-
+    background: white;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 0.5%;
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    border: blue 1px solid;
+  
 }
-
 .Section2Picture1
-
-.Section2Tittle2
-
 {
-
+    display: flex;
+    border-radius: 10px;
+    width: auto
+  
+}
+.Section2Tittle2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
 }
 
 .Section2StarPicture1
+{
+    display: flex;
+    flex-flow: nowrap row;
+   
+    justify-content: center;
+   
+    
+  
+}
 
 /* section3 */
 
@@ -121,24 +137,62 @@ nav li
     background-color: #F2F2F2;
     border: red 1px solid;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
+    flex-flow: wrap row;
 }
 
 .Section3Tittle
-
+{
+    display: flex;
+    align-items: flex-start;
+    
+  
+}
 #Hebergement
 
 .Section3GoupePicture1
-
+{
+    border: blue 1px solid;
+    background: white;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 0.5%;
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    
+  
+}
 .Section3Picture1
-
+{
+    
+    display: flex;
+    border-radius: 10px;
+    width: auto
+  
+}
 .Section3Tittle2
-
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .Section3StarPicture1
-
+{
+    display: flex;
+    flex-flow: nowrap row;
+   
+    justify-content: center;
+  
+}
 .Section3Bouton
-
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  
+}
 /* Section4 */
 
 .Section4
