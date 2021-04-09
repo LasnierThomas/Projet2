@@ -57,7 +57,7 @@ nav li
 
 /* section2 */
 
-.host/popular
+.host-popular
 {
     display: flex;
     flex-wrap: wrap;
@@ -72,6 +72,7 @@ nav li
     flex-flow: column wrap;
     margin: 2px;
     width: 34%;
+    
     
 }
 
@@ -165,21 +166,18 @@ nav li
 
 }
 
-#Hebergement
-{
-   
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .host-box
 {
     background-color: white;
     border: springgreen solid 1px;
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
     margin: 5px;
     height: 20%;
     width: 30%;
+    max-width: 100%;
+    
     
   
 }
@@ -194,12 +192,15 @@ nav li
 
 .host-box-picture img
 {
+    
     max-width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
    
 }
+
+
 .host-box-tittle
 {
     
@@ -220,7 +221,7 @@ nav li
 {
     
     display: flex;
-    flex-wrap: wrap 
+    flex-wrap: wrap; 
     justify-content: flex-start;
     align-self:flex-end;
     
@@ -229,32 +230,76 @@ nav li
 }
 /* Section4 */
 
-.Section4
+.Activity
 {
-    border: yellow 1px solid;
+    border: purple 1px solid;
     display: flex;
+    flex-wrap: wrap;
     
+}
 
+
+.ActivityTittle
+{
+    border: hotpink solid 1px;
+    display: flex;
+   
+}
+
+.all-activity
+{
+  border: blue solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.activity-box
+{
     
+    border: springgreen solid 1px;
+    display: flex;
+    flex-flow:column wrap;
+    margin: 5px;
+    width: 20%;
 
 }
-.Section4Tittle
 
-#Activites
+.activity-box-picture
+{
+    max-width:100% ;
+    display: flex;
+    flex-flow:column wrap;
 
-.Section4GoupePicture1
+}
 
-.Section4Picture1
-
-.Section4Picture1 img
+.activity-box-picture img
 {
     flex: auto;
     display: flex;
     border-radius: 10px 10px 0px 0px;
-    width: auto;
+    width: 100%;
 }
 
-.Section4Tittle2
+.activity-special img
+
+{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.activity-box-tittle
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* footer */
 
