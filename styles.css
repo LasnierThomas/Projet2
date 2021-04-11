@@ -1,60 +1,127 @@
 /* tête du site */
 
-.head
-{
-    display:flex;
-    Flex-flow: row wrap;
-    align-content: space-between;
+img {
+    max-width: 100%;
+    height: auto;
+    
 }
-#HeadPicture
 
-.HeadMenu
+.container {
+    width: 960px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
 
-nav ul
-{
-    list-style-type: none;
+.main-header .container {
     display: flex;
-    justify-content: flex-end;
-
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-nav li
-{
-    margin-right: 15px;
+
+ 
+.main-nav ul {
+    margin: 1em 0 .5em;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: .5em 1.5em;
 }
 
 /* section1 */
 
-.Section1
+.all-sections
 {
+    border: mediumslateblue solid 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search
+{
+    border:solid 1px black;
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
 
 }
 
-.Section1Serch
+.searchtitlle
+{
+    border: red solid 1px;
+    display: flex;
+}
+
+.searchtxt
+{
+    border: solid 1px green;
+    display: flex;
+
+}
+
+.searchlocation
+{
+    border: solid 1px hotpink;
+    display: flex;
+}
 
 .Filtre
 {
- margin-right: 15px;
+    
     display: flex;
-    justify-content: flex-start;
-    flex-flow: row wrap;
-    align-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    
+    
 }
 
 .FiltreTittle
-
-.Bouton
-
-.Boutonicone
+{
+    border:  1px red solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bouton
+{
+    border: solid 1px blue;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.boutonicone
+{
+    border: green solid 1px;
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 .BoutonTittle
+{
+    border: solid 1px hotpink;
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 .Information
+{
+    border: solid 1px blue;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .InformationIcone
+{
+    border: green solid 1px;
+    display: flex;
+    flex-wrap: wrap;
 
+}   
 /* section2 */
 
 .host-popular
@@ -63,6 +130,7 @@ nav li
     flex-wrap: wrap;
     margin: auto;
    border: 1px black solid;
+   
 }
 .popular
 {
@@ -74,12 +142,14 @@ nav li
     width: 34%;
     
     
+    
 }
 
 .popular-tittle
 {
     border: hotpink 1px solid;
     display: flex;
+    margin: 2px;
     
   
 }
@@ -97,27 +167,26 @@ nav li
 .popular-box
 {
     background-color: white;
-    border: chartreuse solid 1px;
+    border: green solid 1px;
     display: flex;
     flex-flow: column wrap;
-    margin: 5px;
-    height:20%;
-    width: 90%;
-    max-width: 100%;
+    margin: 5px;   
+    width: 90%; 
+     
+    
   
 }
 .popular-box-picture
 {
-    max-width: 100%;
-    
+    width: 100%;    
     display: flex;
     flex-wrap: wrap;
     
 }
 .popular-box-picture img
 {
-    max-width: 100%;
-    height: auto;
+    max-width: 35%;
+    max-height: auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -145,12 +214,14 @@ nav li
     flex-wrap: wrap;
     margin: 2px;
     width: 65%;
+    height: 50%;
 }
 
 .host-tittle
 {
     border: hotpink solid 1px;
     display: flex;
+    
     
   
 }
@@ -170,34 +241,30 @@ nav li
 .host-box
 {
     background-color: white;
-    border: springgreen solid 1px;
+    border: green solid 1px;
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    height: 20%;
     width: 30%;
-    max-width: 100%;
     
     
-  
 }
 .host-box-picture
 {
     max-width: 100%;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
+    
   
 }
 
 .host-box-picture img
 {
     
-    max-width: 100%;
-    height: auto;
+    max-width: 90%;
     display: flex;
     flex-wrap: wrap;
-   
+    
 }
 
 
@@ -260,12 +327,13 @@ nav li
 
 .activity-box
 {
-    
-    border: springgreen solid 1px;
+    background-color: white;
+    border: green solid 1px;
     display: flex;
     flex-flow:column wrap;
     margin: 5px;
     width: 20%;
+    
 
 }
 
@@ -282,37 +350,110 @@ nav li
     flex: auto;
     display: flex;
     border-radius: 10px 10px 0px 0px;
-    width: 100%;
+    width: 90%;
 }
 
 .activity-special img
 
 {
     
-    width: 100%;
-    height: 100%;
+    width:100%;
     display: flex;
     flex-wrap: wrap;
+    overflow: auto;
 
 }
 .activity-box-tittle
 {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 /* footer */
 
-.Footer1
+.all-footer
+{
+    border: black solid 1px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;    
+    
 
-.FooterTittle1
+}
 
-.FooterApropos
+.all-box
+{
+    border: blue solid 1px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center;
+    width: 100%;
+    
+}
 
-.FooterTittle2
+.box-about
 
-.FooterNoshebergements
+{
+    border: red solid 1px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 20%;
+        
+}
 
-.FooterTittle3
+.FooterTittleabout
+{
+    display: flex;
+    margin: 5%;
+}
+.Footerabout
+{
+    display: flex;
+    flex-flow:column wrap;
+    margin: 5% ;
+}
+.box-host
+{
+    border: red solid 1px;
+    display: flex;
+    flex-flow:column wrap;
+    width: 20%;
+}
+.FooterTittlehost
+{
+    display: flex;
+    margin: 5%;
+}
+.Footerhost
+{
+    display: flex;
+    flex-flow:column wrap;
+    margin: 5% ;
+}
+.box-help
+{
+    border: red solid 1px;
+    display: flex;
+    flex-flow:column wrap;
+    width: 20%;
+}
+.footertittlehelp
+{
+    display: flex;
+    margin: 5%;
+    
+}
+.Footerhelp
+{
+    display: flex;
+    flex-flow:column wrap;
+    margin: 5% ;
+    
+}
 
-.FooterAssistance
+
+
+

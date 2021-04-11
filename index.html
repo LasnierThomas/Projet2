@@ -10,31 +10,37 @@
 </head>
 
 <body>
-    <div class="bloc_page">
-        <!-- Tête du site -->
-        <header class="head">
 
-
-            <img id="HeadPicture" src="Projet 2 - Reservia/images/logo/Reservia@3x.png" alt="logo reservia">
-            <nav>
-                <ul>
-                    <li><a href="s'inscrire.html" target="_blank">S'inscrire</a></li>
-                    <li><a href="#Hébergements">Hébergements</a></li>
-                    <li><a href="#Activités">Activités</a></li>
+    <!-- Tête du site -->
+    <header class="main-header">
+        <div class="container">
+            <h1 class="mh-logo">
+                <img src="./image/Reservia@3x.png" width="170" height="95" alt="name site">
+            </h1>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li>
+                        <a href="#host">Hébergements</a>
+                    </li>
+                    <li>
+                        <a href="#activity">Activités</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">S'inscrire</a>
+                    </li>
                 </ul>
             </nav>
+        </div>
+    </header>
 
 
-        </header>
+    <!-- section1 -->
+    <section class="all-sections">
+        <section class="search">
 
-
-        <!-- section1 -->
-
-        <section class="Section1">
-
-            <h2> Trouvez votre hébergement pour des vacances de rêve </h2>
-            <p> En plein centre ville ou en pleine nature</p>
-            <div class="Section1Serch">
+            <h2 class="searchtitlle"> Trouvez votre hébergement pour des vacances de rêve </h2>
+            <p class="searchtxt"> En plein centre ville ou en pleine nature</p>
+            <div class="searchlocation">
                 <i class="fas fa-map-marker-alt"></i> <input type="text" name="Ville"
                     placeholder="Marseille, France" /><a href="#" class="bouton bleu"> <i class="fas fa-search"></i></a>
             </div>
@@ -43,45 +49,45 @@
 
                 <h3 class="FiltreTittle">Filtres</h3>
 
-                <div class="Bouton">
-                    <div class="Boutonicone">
-                        <a href="#" target="_blank"><i class="fas fa-money-bill-wave"></i>
-                            <p class="BoutonTittle">Économique</p>
-                        </a>
-                    </div>
-                </div>
-
                 <div class="bouton">
-                    <div class="boutonicone">
-                        <a href="#" target="_blank"><i class="fas fa-child"></i>
-                            <p class="BoutonTittle">Famillial</p>
-                        </a>
-                    </div>
+                    <a href="#" target="_blank">
+                        <div class="boutonicone">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <p class="BoutonTittle">Économique</p>
+                    </a>
                 </div>
-
                 <div class="bouton">
-                    <div class="boutonicone">
-                        <a href="#" target="_blank"><i class="fas fa-heart"></i>
-                            <p class="BoutonTittle">Romantique</p>
-                        </a>
-                    </div>
+                    <a href="#" target="_blank">
+                        <div class="boutonicone">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <p class="BoutonTittle">Famillial</p>
+                    </a>
                 </div>
-
                 <div class="bouton">
-                    <div class="boutonicone">
-                        <a href="#" target="_blank"><i class="fas fa-dog"></i>
-                            <p class="BoutonTittle">Animaux autorisés</p>
-                        </a>
-                    </div>
+                    <a href="#" target="_blank">
+                        <div class="boutonicone">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <p class="BoutonTittle">Romantique</p>
+                    </a>
                 </div>
-
-
+                <div class="bouton">
+                    <a href="#" target="_blank">
+                        <div class="boutonicone">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                        <p class="BoutonTittle">Animaux autorisés</p>
+                    </a>
+                </div>
             </div>
+
             <div class="Information">
                 <div class="InformationIcone">
                     <i class="fas fa-info-circle"></i>
-                    <p> Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
+                <p> Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
 
@@ -89,7 +95,7 @@
 
         <section class="host-popular">
             <div class="host">
-                <h2 class="host-tittle" id="Hebergements">Hébergement à marseille</h2>
+                <h2 class="host-tittle" id="host">Hébergement à marseille</h2>
                 <div class="all-host">
                     <article class="host-box">
                         <a href="#" target="_blank">
@@ -204,9 +210,9 @@
                             </div>
                         </a>
                     </article>
-                   
-                        <p class="host-bouton"><button>Afficher plus </button></p>
-                    
+
+                    <p class="host-bouton"><button>Afficher plus </button></p>
+
                 </div>
             </div>
 
@@ -281,10 +287,11 @@
             </div>
         </section>
 
+
         <!-- section 4 -->
 
         <section class="Activity">
-            <h2 class="ActivityTittle" id="Activites"> Activités à Marseille</h2>
+            <h2 class="ActivityTittle" id="activity"> Activités à Marseille</h2>
             <div class="all-activity">
                 <article class="activity-box">
                     <a href="#" target="_blank">
@@ -294,7 +301,6 @@
                         <figcaption class="activity-box-tittle">
                             <h3>Vieux Port</h3>
                         </figcaption>
-
                     </a>
                 </article>
                 <article class="activity-box">
@@ -349,49 +355,46 @@
                     </a>
                 </article>
             </div>
+        </section>
+    </section>
 
+
+
+    <!-- Pied de page -->
+
+    <footer>
+        <section class="all-footer">
+            <div class="all-box">
+                <div class="box-about">
+                    <h3 class="FooterTittleabout">A propos</h3>
+                    <div class="Footerabout">
+                        <a href="#" target="_blank"> Fonctionnement du site</a>
+                        <a href="#" target="_blank"> Conditions dénérales de vente</a>
+                        <a href="#" target="_blank"> Données et confidentialité</a>
+                    </div>
+                </div>
+
+                <div class="box-host">
+                    <h3 class="FooterTittlehost">Nos hébergements</h3>
+                    <div class="Footerhost">
+                        <a href="#" target="_blank"> Charte qualité</a>
+                        <a href="#" target="_blank"> Soumettre votre hôtel</a>
+                    </div>
+                </div>
+
+                <div class="box-help">
+                    <h3 class="footertittlehelp">Assistance</h3>
+                    <div class="Footerhelp">
+                        <a href="#" target="_blank"> Centre d'aide</a>
+                        <a href="#" target="_blank"> Nous contacter</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
+    </footer>
 
-        <!-- Pied de page -->
-
-        <footer class="Footer1">
-
-            <div class="FooterTittle1">
-                <h3>A propos</h3>
-
-            </div>
-
-            <div class="FooterApropos">
-                <a href="#" target="_blank"> Fonctionnement du site</a>
-                <a href="#" target="_blank"> Conditions dénérales de vente</a>
-                <a href="#" target="_blank"> Données et confidentialité</a>
-            </div>
-
-            <div class="FooterTittle2">
-                <h3>Nos hébergements</h3>
-
-            </div>
-
-            <div class="FooterNoshebergements">
-                <a href="#" target="_blank"> Charte qualité</a>
-                <a href="#" target="_blank"> Soumettre votre hôtel</a>
-            </div>
-
-            <div class="FooterTittle3">
-                <h3>Assistance</h3>
-
-            </div>
-
-            <div class="FooterAssistance">
-                <a href="#" target="_blank"> Centre d'aide</a>
-                <a href="#" target="_blank"> Nous contacter</a>
-            </div>
-
-
-        </footer>
-    </div>
 </body>
 
 </html>
