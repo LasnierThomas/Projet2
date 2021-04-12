@@ -100,6 +100,7 @@ img {
 }
 .search-bouton
 {
+    color: white;
     background-color: #0065FC;
     display: inline;
     border: red 1px solid;
@@ -133,6 +134,7 @@ img {
 {
 
     border: green solid 1px;
+    color:  #0065FC;
     background-color: #DEEBFF;
     display: inline;
     flex-wrap: nowrap;
@@ -157,6 +159,7 @@ img {
 .InformationIcone
 {
     border: green solid 1px;
+    color: #0065FC;
     display: flex;
     flex-flow: row wrap;
     
@@ -260,14 +263,22 @@ img {
 
 .popular-box-star
 {
-    color: #0065FC;
+    
     display: flex;
     flex-wrap: wrap;
     padding-top: 10%;
-    
-  
 }
 
+.starok[data-active=true]
+{ 
+    color: #0065FC;
+}
+
+.starnotok[data-active=false]
+
+{
+    color: #F2F2F2;
+}
 
 
 /* section3 */
