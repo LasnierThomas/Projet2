@@ -4,35 +4,42 @@ img {
     max-width: 100%;
     height: auto;
     
+    
 }
 
 .container {
     width: 960px;
     max-width: 100%;
     padding: 20px;
-    margin: 0 auto;
+    
 }
 
 .main-header .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    
     flex-wrap: wrap;
 }
 
  
+
+
 .main-nav ul {
     margin: 1em 0 .5em;
     text-align: center;
+    width: 420%;
+    
 }
 
 .main-nav li {
     display: inline;
+    
 }
 
 .main-nav a {
     display: inline-block;
     padding: .5em 1.5em;
+    
 }
 
 /* section1 */
@@ -50,6 +57,9 @@ img {
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
+    
+    width: 100%;
+    padding:10px;
 
 }
 
@@ -57,54 +67,81 @@ img {
 {
     border: red solid 1px;
     display: flex;
+    
 }
 
 .searchtxt
 {
     border: solid 1px green;
     display: flex;
+    padding-bottom: 1%;
+
+}
+
+.searchtitlle, .searchtxt
+{
+    margin:0;
+}
+
+.search-logo-location
+{
+    background-color: #F2F2F2;
+    display: inline;
+    border:solid 1px red
 
 }
 
 .searchlocation
 {
     border: solid 1px hotpink;
-    display: flex;
+    display: inline;
+    padding-bottom: 1%;
+     
 }
+.search-bouton
+{
+    background-color: #0065FC;
+    display: inline;
+    border: red 1px solid;
+}
+
+
 
 .Filtre
 {
     
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
-    margin-right: 15px;
-    
     
 }
 
 .FiltreTittle
 {
     border:  1px red solid;
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
 }
 .bouton
 {
     border: solid 1px blue;
-    display: flex;
+    display: inline;
     flex-wrap: nowrap;
+    width: 20%;
+    margin: 10px;
 }
 .boutonicone
 {
+
     border: green solid 1px;
-    display: flex;
+    background-color: #DEEBFF;
+    display: inline;
     flex-wrap: nowrap;
 }
 
 .BoutonTittle
 {
     border: solid 1px hotpink;
-    display: flex;
+    display: inline;
     flex-wrap: nowrap;
 }
 
@@ -112,14 +149,19 @@ img {
 {
     border: solid 1px blue;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow:row wrap;
+    width: 100%;
+    
 }
 
 .InformationIcone
 {
     border: green solid 1px;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    
+    align-items: center;
+    width: 2%;
 
 }   
 /* section2 */
@@ -145,14 +187,31 @@ img {
     
 }
 
+.group-popular-tittle-logo
+{
+    display: flex;
+    width: 100%;
+}
+
 .popular-tittle
 {
     border: hotpink 1px solid;
     display: flex;
-    margin: 2px;
+    margin: 5px;
+    width: 80%;
     
-  
 }
+
+.popular-logo
+{
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+
+
 
 .all-popular
 {
@@ -172,6 +231,7 @@ img {
     flex-flow: column wrap;
     margin: 5px;   
     width: 90%; 
+    line-height:10%;
      
     
   
@@ -195,14 +255,20 @@ img {
   
     display: flex;
     flex-flow:column wrap;
+    line-height:0;
 }
 
 .popular-box-star
 {
+    color: #0065FC;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 10%;
+    
   
 }
+
+
 
 /* section3 */
 
@@ -246,6 +312,8 @@ img {
     flex-flow: column wrap;
     margin: 5px;
     width: 30%;
+    line-height:10%;
+    
     
     
 }
@@ -279,7 +347,7 @@ img {
 .host-box-star
 {
     
-   
+   color: #0065FC;
     display: flex;
     flex-wrap: wrap;
   
@@ -288,13 +356,12 @@ img {
 {
     
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: flex-start;
+    flex-wrap: wrap;  
     align-self:flex-end;
-    
-    
-  
 }
+
+
+
 /* Section4 */
 
 .Activity
@@ -401,6 +468,7 @@ img {
     display: flex;
     flex-flow: column wrap;
     width: 20%;
+    line-height: 150%;
         
 }
 
@@ -408,12 +476,15 @@ img {
 {
     display: flex;
     margin: 5%;
+    
+   
 }
 .Footerabout
 {
     display: flex;
     flex-flow:column wrap;
     margin: 5% ;
+    
 }
 .box-host
 {
@@ -421,6 +492,7 @@ img {
     display: flex;
     flex-flow:column wrap;
     width: 20%;
+    line-height: 150%;
 }
 .FooterTittlehost
 {
@@ -432,6 +504,9 @@ img {
     display: flex;
     flex-flow:column wrap;
     margin: 5% ;
+    
+    
+    
 }
 .box-help
 {
@@ -439,11 +514,13 @@ img {
     display: flex;
     flex-flow:column wrap;
     width: 20%;
+    line-height: 150%;
 }
 .footertittlehelp
 {
     display: flex;
     margin: 5%;
+
     
 }
 .Footerhelp
@@ -451,6 +528,7 @@ img {
     display: flex;
     flex-flow:column wrap;
     margin: 5% ;
+   
     
 }
 
