@@ -26,7 +26,7 @@ img {
 
 
 .main-nav ul {
-    width: 350%;
+    width: 360%;
     display: flex;
     justify-content: flex-end;
     
@@ -66,16 +66,16 @@ img {
 
 .searchtitlle
 {
-    border: red solid 1px;
+   
     display: flex;
     
 }
 
 .searchtxt
 {
-    border: solid 1px green;
+    
     display: flex;
-    padding: 1%;
+    
 
 }
 
@@ -99,25 +99,27 @@ img {
     
     display: flex;
     padding: 0;
-    margin: 5px 5px 5px 0px;
+    margin: 15px 5px 5px 0px;
     border-radius: 10px 10px 10px 10px;
      
 }
 
 .searchcity
 {
-
+    text-align: center;
     border-right: none;
     border-left: none;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
 }
+
+
 .search-bouton
 {
     color: white;
     background-color: #0065FC;
     display: inline;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 15px 10px 0px;
    
     border-radius: 0px 10px 10px 0px;
 }
@@ -129,13 +131,13 @@ img {
     
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
+    
     
 }
 
 .FiltreTittle
 {
-    border:  1px red solid;
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -153,7 +155,7 @@ img {
 .boutonicone
 {
 
-    color:  blue;
+    
     background-color: #DEEBFF;
     display: inline;
     flex-wrap: nowrap;
@@ -172,7 +174,7 @@ img {
 
 .Information
 {
-    border: solid 1px blue;
+    
     display: flex;
     flex-flow:row wrap;
     width: 100%;
@@ -181,15 +183,20 @@ img {
 
 .InformationIcone
 {
-    border: green solid 1px;
+    
     color: #0065FC;
     display: flex;
     flex-flow: row wrap;
-    
+    justify-content: center;
     align-items: center;
     width: 2%;
 
 }   
+
+.iconi
+{
+    
+}
 /* section2 */
 
 .host-popular
@@ -292,7 +299,7 @@ img {
     padding-top: 10%;
 }
 
-.fas
+.starok
 { 
     color: #0065FC;
 }
