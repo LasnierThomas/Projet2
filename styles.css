@@ -3,6 +3,7 @@
 img {
     max-width: 100%;
     height: auto;
+    width: 30%;
     
     
 }
@@ -25,9 +26,9 @@ img {
 
 
 .main-nav ul {
-    margin: 1em 0 .5em;
-    text-align: center;
-    width: 420%;
+    width: 350%;
+    display: flex;
+    justify-content: flex-end;
     
 }
 
@@ -74,7 +75,7 @@ img {
 {
     border: solid 1px green;
     display: flex;
-    padding-bottom: 1%;
+    padding: 1%;
 
 }
 
@@ -86,65 +87,87 @@ img {
 .search-logo-location
 {
     background-color: #F2F2F2;
+    color: black;
     display: inline;
-    border:solid 1px red
+    padding: 10px 15px;
+     border-radius: 10px 0px 0px 10px;
 
 }
 
 .searchlocation
 {
-    border: solid 1px hotpink;
-    display: inline;
-    padding-bottom: 1%;
+    
+    display: flex;
+    padding: 0;
+    margin: 5px 5px 5px 0px;
+    border-radius: 10px 10px 10px 10px;
      
+}
+
+.searchcity
+{
+
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
 }
 .search-bouton
 {
     color: white;
     background-color: #0065FC;
     display: inline;
-    border: red 1px solid;
+    padding: 10px 10px 10px 0px;
+   
+    border-radius: 0px 10px 10px 0px;
 }
 
 
 
-.Filtre
+.Filtres
 {
     
-    display: inline;
+    display: flex;
     flex-wrap: wrap;
+    padding: 10px;
     
 }
 
 .FiltreTittle
 {
     border:  1px red solid;
-    display: inline;
+    display: flex;
     flex-wrap: wrap;
+    align-items: center;
+
 }
 .bouton
 {
-    border: solid 1px blue;
-    display: inline;
+    border: solid 1px #b5acac;
+    display: flex;
     flex-wrap: nowrap;
-    width: 20%;
-    margin: 10px;
+    margin: 20px;
+    padding: 10px 10px 10px 0px;
+    border-radius: 20px;
 }
 .boutonicone
 {
 
-    border: green solid 1px;
-    color:  #0065FC;
+    color:  blue;
     background-color: #DEEBFF;
     display: inline;
     flex-wrap: nowrap;
+    padding: 11px;
+    margin: -3px;
+    border-radius: 50%;
 }
 
 .BoutonTittle
 {
-    border: solid 1px hotpink;
+    
     display: inline;
     flex-wrap: nowrap;
+    padding: 10px
 }
 
 .Information
@@ -269,15 +292,17 @@ img {
     padding-top: 10%;
 }
 
-.starok[data-active=true]
+.fas
 { 
     color: #0065FC;
 }
 
-.starnotok[data-active=false]
+.greystar
 
 {
-    color: #F2F2F2;
+    color: grey;
+    fill: grey;
+    
 }
 
 
