@@ -262,26 +262,35 @@ img {
     border: green solid 1px;
     display: flex;
     flex-flow: column wrap;
-    margin: 5px;   
+    margin: 10px;   
     width: 90%; 
     line-height:10%;
      
-    
-  
+}
+
+.popular-picture-txt
+
+{
+    display: flex;
+
 }
 .popular-box-picture
 {
-    width: 100%;    
+    width: 35%;
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
     
 }
 .popular-box-picture img
 {
-    max-width: 35%;
-    max-height: auto;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 30px 0px 0 30px;
+    height: 149px;
+    object-fit: cover;
+    padding: 10px;
 }
 .popular-box-tittle
 {
@@ -290,6 +299,10 @@ img {
     flex-flow:column wrap;
     line-height:0;
 }
+
+.popular-h3
+
+.popular-p
 
 .popular-box-star
 {
@@ -318,17 +331,18 @@ img {
 .host
 {
     background-color: #F2F2F2;
-    border: solid red 1px;
+    
     display: flex;
     flex-wrap: wrap;
     margin: 2px;
     width: 65%;
     height: 50%;
+    border-radius: 20px;
 }
 
 .host-tittle
 {
-    border: hotpink solid 1px;
+    
     display: flex;
     
     
@@ -337,7 +351,7 @@ img {
 
 .all-host
 {
-    border: blue solid 1px;
+    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -350,10 +364,11 @@ img {
 .host-box
 {
     background-color: white;
-    border: green solid 1px;
+    
+    border-radius: 20px;
     display: flex;
     flex-flow: column wrap;
-    margin: 5px;
+    margin: 10px;
     width: 30%;
     line-height:10%;
     
@@ -362,9 +377,10 @@ img {
 }
 .host-box-picture
 {
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
     
   
 }
@@ -372,9 +388,13 @@ img {
 .host-box-picture img
 {
     
-    max-width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 30px 30px 0 0;
+    height: 115px;
+    object-fit: cover;
+    padding: 10px;
     
 }
 
@@ -385,7 +405,19 @@ img {
     
     display: flex;
     flex-flow:column wrap;
+    padding: 0px 0px 0px 15px;
 
+}
+
+.host-h3
+{
+    margin: 0px;
+    padding: 4px;
+}
+
+.host-p
+{
+    padding: 4px;
 }
 .host-box-star
 {
@@ -393,6 +425,7 @@ img {
    color: #0065FC;
     display: flex;
     flex-wrap: wrap;
+    padding: 0 0px 10px 15px;
   
 }
 .host-bouton
@@ -401,6 +434,8 @@ img {
     display: flex;
     flex-wrap: wrap;  
     align-self:flex-end;
+    padding: 15px;
+    font-weight: bold;
 }
 
 
@@ -449,9 +484,11 @@ img {
 
 .activity-box-picture
 {
-    max-width:100% ;
+    width:100% ;
     display: flex;
     flex-flow:column wrap;
+    object-fit: cover;
+    margin: 0px;
 
 }
 
@@ -460,9 +497,15 @@ img {
     flex: auto;
     display: flex;
     border-radius: 10px 10px 0px 0px;
-    width: 90%;
+    width: 100%;
 }
 
+.activity-special
+{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
 .activity-special img
 
 {
@@ -470,7 +513,7 @@ img {
     width:100%;
     display: flex;
     flex-wrap: wrap;
-    overflow: auto;
+    object-fit: cover;
 
 }
 .activity-box-tittle
