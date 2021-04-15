@@ -143,14 +143,18 @@ img {
     align-items: center;
 
 }
+.iconefilter
+{
+    color: blue;
+}
 .bouton
 {
     border: solid 1px #b5acac;
     display: flex;
     flex-wrap: nowrap;
-    margin: 20px;
-    padding: 10px 10px 10px 0px;
-    border-radius: 20px;
+    margin: 24px;
+    padding: 18px 11px 18px 0px;
+    border-radius: 47px;
 }
 .boutonicone
 {
@@ -159,8 +163,8 @@ img {
     background-color: #DEEBFF;
     display: inline;
     flex-wrap: nowrap;
-    padding: 11px;
-    margin: -3px;
+    padding: 20px;
+    margin: -2px;
     border-radius: 50%;
 }
 
@@ -189,14 +193,12 @@ img {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 2%;
+    width: 3%;
+    margin-left: -0.5%;
 
 }   
 
-.iconi
-{
-    
-}
+
 /* section2 */
 
 .host-popular
@@ -214,7 +216,7 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 2px;
-    width: 34%;
+    width: 32%;
     
     
     
@@ -298,18 +300,26 @@ img {
     display: flex;
     flex-flow:column wrap;
     line-height:0;
+    margin: 0px 21px 9px 24px;
 }
 
 .popular-h3
+{
+    display: flex;
 
+}
 .popular-p
-
+{
+    display: flex;
+}
 .popular-box-star
 {
     
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 10%;
+    display: inline;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 139px 0px 0px -204px;
 }
 
 .starok
@@ -334,8 +344,8 @@ img {
     
     display: flex;
     flex-wrap: wrap;
-    margin: 2px;
-    width: 65%;
+    margin: 0px 25px 0px 0px;
+    width: 66%;
     height: 50%;
     border-radius: 20px;
 }
@@ -344,6 +354,7 @@ img {
 {
     
     display: flex;
+    margin-left: 3%;
     
     
   
@@ -364,7 +375,7 @@ img {
 .host-box
 {
     background-color: white;
-    
+    box-shadow: 0 0 20px #9e9494;
     border-radius: 20px;
     display: flex;
     flex-flow: column wrap;
@@ -444,23 +455,25 @@ img {
 
 .Activity
 {
-    border: purple 1px solid;
+   
     display: flex;
     flex-wrap: wrap;
+    margin: 1% 0 -12% 0;
     
 }
 
 
 .ActivityTittle
 {
-    border: hotpink solid 1px;
+    
     display: flex;
+    margin-left: 9%;
    
 }
 
 .all-activity
 {
-  border: blue solid 1px;
+  
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -470,46 +483,192 @@ img {
 
 
 
-.activity-box
+.activity-box1
 {
     background-color: white;
-    border: green solid 1px;
+    box-shadow: 0 0 20px #9e9494;
+    border-radius: 20px;
+    
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
     margin: 5px;
     width: 20%;
+    height: 68%;
+    
     
 
 }
 
-.activity-box-picture
+
+.activity-box2
 {
-    width:100% ;
+    background-color: white;
+    box-shadow: 0 0 20px #9e9494;
+    border-radius: 20px;
+   
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
+    margin: 5px;
+    width: 20%;
+    height: 34%;
+    position: relative;
+    top: -17%;
+    
+}
+
+.activity-box-picture2
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0px;
+    height: 43%;
+
+}
+
+.activity-box-picture2 img
+{
+    display: flex;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.activity-box3
+{
+    background-color: white;
+    box-shadow: 0 0 20px #9e9494;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px;
+    width: 20%;
+    height: 27%;
+    position: relative;
+    top: -32%;
+    
+}
+
+.activity-box-picture3
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0px;
+    height: 64%;
+
+}
+
+.activity-box-picture3 img
+{
+    display: flex;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.activity-box4
+{
+    background-color: white;
+    box-shadow: 0 0 20px #9e9494;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px;
+    width: 20%;
+    height: 68%;
+}
+
+
+
+.activity-box5
+{
+    background-color: white;
+    box-shadow: 0 0 20px #9e9494;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px;
+    width: 20%;
+    height: 27%;
+    position: relative;
+    top: -20%;
+}
+.activity-box-picture5
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
     object-fit: cover;
     margin: 0px;
+    height: 64%;
 
 }
 
-.activity-box-picture img
+.activity-box-picture5 img
 {
-    flex: auto;
     display: flex;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0 0;
     width: 100%;
+    height: 100%;
 }
+
+
+.activity-box6
+{
+    background-color: white;
+    box-shadow: 0 0 20px #9e9494;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px;
+    width: 20%;
+    height: 34%;
+    position: relative;
+    left: 21%;
+    top: -35%;
+    
+}
+
+.activity-box-picture6
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0px;
+    height: 77%;
+
+}
+
+.activity-box-picture6 img
+{
+    display: flex;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
 
 .activity-special
 {
+    
     display: flex;
     width: 100%;
     margin: 0px;
+    height: 191%;
 }
 .activity-special img
 
 {
-    
+    border-radius: 20px 20px 0 0;
     width:100%;
     display: flex;
     flex-wrap: wrap;
@@ -520,6 +679,7 @@ img {
 {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10%;
     
 }
 
@@ -527,7 +687,7 @@ img {
 
 .all-footer
 {
-    border: black solid 1px;
+    
     background-color: #F2F2F2;
     display: flex;
     flex-wrap:wrap;
@@ -538,7 +698,7 @@ img {
 
 .all-box
 {
-    border: blue solid 1px;
+    
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
@@ -550,11 +710,12 @@ img {
 .box-about
 
 {
-    border: red solid 1px;
+    
     display: flex;
     flex-flow: column wrap;
     width: 20%;
     line-height: 150%;
+    margin-right: 10%;
         
 }
 
@@ -574,7 +735,7 @@ img {
 }
 .box-host
 {
-    border: red solid 1px;
+    
     display: flex;
     flex-flow:column wrap;
     width: 20%;
@@ -596,11 +757,12 @@ img {
 }
 .box-help
 {
-    border: red solid 1px;
+    
     display: flex;
     flex-flow:column wrap;
     width: 20%;
     line-height: 150%;
+    margin-left: 10%;
 }
 .footertittlehelp
 {
