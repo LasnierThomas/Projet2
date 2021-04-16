@@ -1,3 +1,18 @@
+@font-face 
+{
+    font-family:"Raleway";
+    src: url("font/Raleway-Italic-VariableFont_wght.ttf"),
+         url("font/Raleway-VariableFont_wght.ttf");        
+}
+
+.body
+{
+    font-family: "Raleway", sans-serif ;
+}
+
+
+
+
 /* tête du site */
 
 img {
@@ -20,15 +35,17 @@ img {
     align-items: center;
     
     flex-wrap: wrap;
+    
 }
 
  
 
 
 .main-nav ul {
-    width: 360%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    margin-left: 211%;
     
 }
 
@@ -58,7 +75,7 @@ img {
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
-    
+    margin-left: 6.5%;
     width: 100%;
     padding:10px;
 
@@ -68,6 +85,7 @@ img {
 {
    
     display: flex;
+    font-size: 2.2em;
     
 }
 
@@ -75,6 +93,7 @@ img {
 {
     
     display: flex;
+    font-size: 1.22em;
     
 
 }
@@ -89,8 +108,9 @@ img {
     background-color: #F2F2F2;
     color: black;
     display: inline;
-    padding: 10px 15px;
-     border-radius: 10px 0px 0px 10px;
+    padding: 14px 17px;
+    border-radius: 10px 0px 0px 10px;
+    
 
 }
 
@@ -106,12 +126,16 @@ img {
 
 .searchcity
 {
-    text-align: center;
+    text-indent: 20px;
     border-right: none;
     border-left: none;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
+    font-size: 1em;
+    font-weight: bold;
+   ;
 }
+
 
 
 .search-bouton
@@ -119,8 +143,8 @@ img {
     color: white;
     background-color: #0065FC;
     display: inline;
-    padding: 10px 15px 10px 0px;
-   
+    padding: 14px 15px 10px 0px;
+    font-weight: bold;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -141,6 +165,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    font-size: 1.5em;
 
 }
 .iconefilter
@@ -153,8 +178,8 @@ img {
     display: flex;
     flex-wrap: nowrap;
     margin: 24px;
-    padding: 18px 11px 18px 0px;
-    border-radius: 47px;
+    padding: 16px 16px 16px 0px;
+    border-radius: 50px;
 }
 .boutonicone
 {
@@ -164,7 +189,7 @@ img {
     display: inline;
     flex-wrap: nowrap;
     padding: 20px;
-    margin: -2px;
+    margin: -6px;
     border-radius: 50%;
 }
 
@@ -173,7 +198,9 @@ img {
     
     display: inline;
     flex-wrap: nowrap;
-    padding: 10px
+    padding: 13px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .Information
@@ -216,7 +243,7 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 2px;
-    width: 32%;
+    width: 30%;
     
     
     
@@ -346,8 +373,8 @@ img {
     
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 25px 0px 0px;
-    width: 66%;
+    margin: 0px 33px 0px 104px;
+    width: 54%;
     height: 50%;
     border-radius: 20px;
 }
@@ -481,6 +508,7 @@ img {
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-right: 6%;
 }
 
 
@@ -493,10 +521,11 @@ img {
     
     display: flex;
     flex-flow: column wrap;
-    margin: 5px;
+    margin: 0px;
     width: 20%;
-    height: 68%;
-    
+    height: 63%;
+    position: relative;
+    top: -0.5%;
     
 
 }
@@ -511,10 +540,11 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 20%;
-    height: 34%;
+    width: 22%;
+    height: 32%;
     position: relative;
-    top: -17%;
+    top: -16%;
+    left: 2%;
     
 }
 
@@ -524,7 +554,7 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    height: 43%;
+    height: 41%;
 
 }
 
@@ -545,10 +575,11 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 20%;
+    width: 22%;
     height: 27%;
     position: relative;
-    top: -32%;
+    top: -32.5%;
+    left: 2%;
     
 }
 
@@ -579,9 +610,12 @@ img {
     
     display: flex;
     flex-flow: column wrap;
-    margin: 5px;
+    margin: 0px;
     width: 20%;
-    height: 68%;
+    height: 63%;
+    position: relative;
+    left: 4%;
+    top: -1%;
 }
 
 
@@ -595,10 +629,11 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 20%;
-    height: 27%;
+    width: 22%;
+    height: 28%;
     position: relative;
-    top: -20%;
+    top: -18.5%;
+    left: 6%;
 }
 .activity-box-picture5
 {
@@ -607,7 +642,7 @@ img {
     flex-flow: column wrap;
     object-fit: cover;
     margin: 0px;
-    height: 64%;
+    height: 70%;
 
 }
 
@@ -629,10 +664,10 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 20%;
-    height: 34%;
+    width: 22%;
+    height: 31%;
     position: relative;
-    left: 21%;
+    left: 26%;
     top: -35%;
     
 }
@@ -643,7 +678,7 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    height: 77%;
+    height: 72%;
 
 }
 
@@ -665,7 +700,7 @@ img {
     display: flex;
     width: 100%;
     margin: 0px;
-    height: 191%;
+    height: 187%;
 }
 .activity-special img
 
