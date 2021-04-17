@@ -10,7 +10,10 @@
     font-family: "Raleway", sans-serif ;
 }
 
-
+.strong
+{
+    font-weight: bold;
+}
 
 
 /* tête du site */
@@ -209,6 +212,7 @@ img {
     display: flex;
     flex-flow:row wrap;
     width: 100%;
+    font-size: 1.26em;
     
 }
 
@@ -221,7 +225,8 @@ img {
     justify-content: center;
     align-items: center;
     width: 3%;
-    margin-left: -0.5%;
+    font-size: 1.6em;
+    margin: 0px 6px 0 0 ;
 
 }   
 
@@ -384,6 +389,7 @@ img {
     
     display: flex;
     margin-left: 3%;
+    font-size: 1.9em;
     
     
   
@@ -451,13 +457,16 @@ img {
 
 .host-h3
 {
-    margin: 0px;
+    margin: 4px 0 0 0;
     padding: 4px;
+    font-size: 1.35em;
+    font-weight: bold;
 }
 
 .host-p
 {
     padding: 4px;
+    font-size: 1.35em;
 }
 .host-box-star
 {
@@ -465,7 +474,7 @@ img {
    color: #0065FC;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0px 10px 15px;
+    padding: 0 0px 10px 17px;
   
 }
 .host-bouton
@@ -474,8 +483,10 @@ img {
     display: flex;
     flex-wrap: wrap;  
     align-self:flex-end;
-    padding: 15px;
+    padding: 18px;
     font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 10px;
 }
 
 
@@ -496,7 +507,9 @@ img {
 {
     
     display: flex;
-    margin-left: 9%;
+    margin-left: 7%;
+    font-size: 1.7em;
+    font-weight: bold;
    
 }
 
@@ -642,7 +655,7 @@ img {
     flex-flow: column wrap;
     object-fit: cover;
     margin: 0px;
-    height: 70%;
+    height: 67%;
 
 }
 
@@ -678,7 +691,7 @@ img {
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    height: 72%;
+    height: 68%;
 
 }
 
@@ -716,7 +729,9 @@ img {
 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10%;
+    margin: -6px 0 0 17px;
+    font-size: 1.2em;
+    font-weight: bold;
     
 }
 
@@ -759,7 +774,9 @@ img {
 .FooterTittleabout
 {
     display: flex;
-    margin: 5%;
+    margin: 26px 0px -4px 18px;
+    font-weight: bold;
+    font-size: 1.3em;
     
    
 }
@@ -768,6 +785,9 @@ img {
     display: flex;
     flex-flow:column wrap;
     margin: 5% ;
+    font-size: 1.2em;
+    line-height: 2em;
+
     
 }
 .box-host
@@ -782,12 +802,16 @@ img {
 {
     display: flex;
     margin: 5%;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 .Footerhost
 {
     display: flex;
     flex-flow:column wrap;
     margin: 5% ;
+    font-size: 1.2em;
+    line-height: 2em;
     
     
     
@@ -805,6 +829,8 @@ img {
 {
     display: flex;
     margin: 5%;
+    font-weight: bold;
+    font-size: 1.3em;
 
     
 }
@@ -813,6 +839,8 @@ img {
     display: flex;
     flex-flow:column wrap;
     margin: 5% ;
+    font-size: 1.2em;
+    line-height: 2em;
    
     
 }
