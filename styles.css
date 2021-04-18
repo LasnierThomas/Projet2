@@ -1,8 +1,8 @@
 @font-face 
 {
     font-family:"Raleway";
-    src: url("font/Raleway-Italic-VariableFont_wght.ttf"),
-         url("font/Raleway-VariableFont_wght.ttf");        
+    src: url("./font/Raleway-Italic-VariableFont_wght.ttf"),
+         url("./font/Raleway-VariableFont_wght.ttf");        
 }
 
 .body
@@ -264,8 +264,9 @@ img {
 {
     border: hotpink 1px solid;
     display: flex;
-    margin: 3% -9% 4% 3%;
+    margin: 3% -11% 4% 5%;
     width: 80%;
+    font-size: 1.9em;
     
 }
 
@@ -293,6 +294,8 @@ img {
 .popular-box
 {
     background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #9e9494;
     border: green solid 1px;
     display: flex;
     flex-flow: column wrap;
@@ -314,7 +317,7 @@ img {
     width: 35%;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
+    margin: 0 ;
     
 }
 .popular-box-picture img
@@ -327,33 +330,37 @@ img {
     object-fit: cover;
     padding: 10px;
 }
-}
+
 .popular-box-tittle
 {
   
     display: flex;
     flex-flow:column wrap;
-    line-height:0;
-    margin: 0px 21px 9px 24px;
+    
 }
 
 .popular-h3
 {
     display: flex;
+    font-size: 1.35em;
+    font-weight: bold;
+    margin: 22px 0 8px -20px;
 
 }
 .popular-p
 {
     display: flex;
+    font-size: 1.35em;
+    margin: 19px 0px 0px -19px;
 }
 .popular-box-star
 {
     
-    display: inline;
+    display: inline-flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-end;
-    margin: 139px 0px 0px -204px;
+    margin: 0px 0px 4px -210px;
 }
 
 .starok
