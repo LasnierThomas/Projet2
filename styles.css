@@ -1,11 +1,10 @@
 @font-face 
 {
     font-family:"Raleway";
-    src: url("./font/Raleway-Italic-VariableFont_wght.ttf"),
-         url("./font/Raleway-VariableFont_wght.ttf");        
+    src: url("font/Raleway-VariableFont_wght.ttf");        
 }
 
-.body
+body
 {
     font-family: "Raleway", sans-serif ;
 }
@@ -17,23 +16,26 @@
 
 
 /* tête du site */
-
+@media (min-width: 960px) {
+	.main-header .container {
+		justify-content: space-between;
+	}
+}
 img {
+    margin: 0px;
     max-width: 100%;
     height: auto;
     width: 30%;
-    
-    
 }
 
 .container {
     width: 960px;
     max-width: 100%;
-    padding: 20px;
     
 }
 
-.main-header .container {
+.main-header .container
+ {
     display: flex;
     align-items: center;
     
@@ -41,20 +43,25 @@ img {
     
 }
 
- 
-
-
-.main-nav ul {
-    width: 100%;
+.bloc-nav
+{
     display: flex;
-    justify-content: flex-end;
-    margin-left: 145%;
-    
+    flex-direction: row-reverse;
+    align-items: center;
 
-    
 }
+.main-nav ul 
+{
+    display: flex;
+    list-style: none;
+	text-align: center;
+    padding-right: 30px;
+}
+    
 
-.main-nav li {
+   
+.main-nav li 
+{
     display: inline;
     
 }
@@ -67,6 +74,7 @@ img {
 
 .LinkRegister
 {
+    
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
@@ -88,20 +96,6 @@ img {
     
 }
 
-.main-nav-list
-
-{
-    
-    transition-duration: 0.1s;
-    border-top: 3px transparent solid;
-    border-bottom: 3px transparent solid;
-}
-
-.main-nav-list[data-active=true]
-{
-    border-top: 3px solid #0065FC;
-    
-}
 
 
 
@@ -225,12 +219,12 @@ img {
 }
 .bouton
 {
-    border: solid 1px #b5acac;
+    border: solid 2px #eae9e9;
     display: flex;
     flex-wrap: nowrap;
     margin: 24px;
-    padding: 16px 16px 16px 0px;
-    border-radius: 50px;
+    padding: 15px 15px 17px 0px;
+    border-radius: 50px 50px 50px 50px;
     transition: all 0.1s ease;
 }
 
@@ -248,8 +242,8 @@ img {
     background-color: #DEEBFF;
     display: inline;
     flex-wrap: nowrap;
-    padding: 20px;
-    margin: -6px;
+    padding: 18px 18px 18px 18px;
+    margin: 0px 0px 0 -3px;
     border-radius: 50%;
 }
 
@@ -399,6 +393,7 @@ img {
 {
   
     display: flex;
+    width: 65%;
     flex-flow:column wrap;
     
 }
@@ -417,6 +412,8 @@ img {
     font-size: 1.35em;
     margin: 20px 0px 0px 150px;
 }
+
+
 .popular-box-star
 {
     
