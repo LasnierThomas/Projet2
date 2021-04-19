@@ -48,7 +48,9 @@ img {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-left: 211%;
+    margin-left: 145%;
+    
+
     
 }
 
@@ -63,18 +65,58 @@ img {
     
 }
 
+.LinkRegister
+{
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+    font-size: 1.35em;
+}
+
+.LinkActivityHeader
+
+{
+    text-decoration: none;
+    font-size: 1.35em;
+}
+
+.LinkHostHeader
+{
+    text-decoration: none;
+    font-size: 1.35em;
+    color: #0065FC;
+    
+}
+
+.main-nav-list
+
+{
+    
+    transition-duration: 0.1s;
+    border-top: 3px transparent solid;
+    border-bottom: 3px transparent solid;
+}
+
+.main-nav-list[data-active=true]
+{
+    border-top: 3px solid #0065FC;
+    
+}
+
+
+
 /* section1 */
 
 .all-sections
 {
-    border: mediumslateblue solid 5px;
+    
     display: flex;
     flex-wrap: wrap;
 }
 
 .search
 {
-    border:solid 1px black;
+    
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
@@ -162,6 +204,12 @@ img {
     
 }
 
+.LinkFilter
+{
+    text-decoration: none;
+    color: black;
+}
+
 .FiltreTittle
 {
     
@@ -183,7 +231,16 @@ img {
     margin: 24px;
     padding: 16px 16px 16px 0px;
     border-radius: 50px;
+    transition: all 0.1s ease;
 }
+
+.bouton:hover
+{
+    transform:scale(1.02);
+    background-color: #f2f6fd
+}
+
+
 .boutonicone
 {
 
@@ -201,7 +258,7 @@ img {
     
     display: inline;
     flex-wrap: nowrap;
-    padding: 13px;
+    padding-left: 16px;
     font-weight: bold;
     font-size: 1.1em;
 }
@@ -238,16 +295,16 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-   border: 1px black solid;
+   
    
 }
 .popular
 {
     background-color: #F2F2F2;
-    border: solid 1px green;
+    border-radius: 20px;
     display: flex;
     flex-flow: column wrap;
-    margin: 2px;
+    margin: 0;
     width: 30%;
     
     
@@ -262,7 +319,7 @@ img {
 
 .popular-tittle
 {
-    border: hotpink 1px solid;
+    
     display: flex;
     margin: 3% -11% 4% 5%;
     width: 80%;
@@ -272,7 +329,7 @@ img {
 
 .popular-logo
 {
-    border: 1px solid red;
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -283,7 +340,7 @@ img {
 
 .all-popular
 {
-    border: solid blue 1px;
+    
     display: flex;
     flex-flow: column wrap;
     width: 100%;
@@ -296,20 +353,27 @@ img {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 20px #9e9494;
-    border: green solid 1px;
+    
     display: flex;
     flex-flow: column wrap;
     margin: 10px;
     height: 155px;
     width: 90%;
     line-height: 10%;
+    transition: all 0.1s ease;
      
 }
 
-.popular-picture-txt
+.popular-box:hover
+{
+    transform:scale(1.02);
+}
+
+.LinkPopular
 
 {
-    display: flex;
+    text-decoration: none;
+    color: black;
 
 }
 .popular-box-picture
@@ -344,23 +408,23 @@ img {
     display: flex;
     font-size: 1.35em;
     font-weight: bold;
-    margin: 22px 0 8px -20px;
+    margin: -124px 0px 9px 150px;
 
 }
 .popular-p
 {
     display: flex;
     font-size: 1.35em;
-    margin: 19px 0px 0px -19px;
+    margin: 20px 0px 0px 150px;
 }
 .popular-box-star
 {
     
-    display: inline-flex;
+    display: revert;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-end;
-    margin: 0px 0px 4px -210px;
+    margin: -29px 0px 0px 157px;
 }
 
 .starok
@@ -391,6 +455,12 @@ img {
     border-radius: 20px;
 }
 
+.LinkHost
+{
+color: black;
+text-decoration: none;
+}
+
 .host-tittle
 {
     
@@ -410,6 +480,7 @@ img {
     width: 100%;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -424,9 +495,14 @@ img {
     margin: 10px;
     width: 30%;
     line-height:10%;
+    transition: all 0.1s ease;
     
     
-    
+}
+
+.host-box:hover
+{
+    transform:scale(1.02);
 }
 .host-box-picture
 {
@@ -449,6 +525,7 @@ img {
     object-fit: cover;
     padding: 10px;
     
+    
 }
 
 
@@ -459,6 +536,7 @@ img {
     display: flex;
     flex-flow:column wrap;
     padding: 0px 0px 0px 15px;
+    
 
 }
 
@@ -468,25 +546,29 @@ img {
     padding: 4px;
     font-size: 1.35em;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .host-p
 {
     padding: 4px;
     font-size: 1.35em;
+    text-decoration: none;
 }
+
 .host-box-star
 {
     
    color: #0065FC;
-    display: flex;
+    display: revert;
     flex-wrap: wrap;
     padding: 0 0px 10px 17px;
   
 }
 .host-bouton
 {
-    
+    color: black;
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;  
     align-self:flex-end;
@@ -529,6 +611,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-right: 6%;
+  
 }
 
 
@@ -546,8 +629,14 @@ img {
     height: 63%;
     position: relative;
     top: -0.5%;
+    transition: all 0.1s ease;
     
+}
 
+.activity-box1:hover
+{
+    transform:scale(1.02);
+   
 }
 
 
@@ -565,7 +654,12 @@ img {
     position: relative;
     top: -16%;
     left: 2%;
-    
+    transition: all 0.1s ease;
+}
+
+.activity-box2:hover
+{
+    transform:scale(1.02);
 }
 
 .activity-box-picture2
@@ -600,7 +694,12 @@ img {
     position: relative;
     top: -32.5%;
     left: 2%;
-    
+    transition: all 0.1s ease;
+}
+
+.activity-box3:hover
+{
+    transform:scale(1.02);
 }
 
 .activity-box-picture3
@@ -636,9 +735,13 @@ img {
     position: relative;
     left: 4%;
     top: -1%;
+    transition: all 0.1s ease;
 }
 
-
+.activity-box4:hover
+{
+    transform:scale(1.02);
+}
 
 .activity-box5
 {
@@ -654,7 +757,14 @@ img {
     position: relative;
     top: -18.5%;
     left: 6%;
+    transition: all 0.1s ease;
 }
+
+.activity-box5:hover
+{
+    transform:scale(1.02);
+}
+
 .activity-box-picture5
 {
     width: 100%;
@@ -689,7 +799,7 @@ img {
     position: relative;
     left: 26%;
     top: -35%;
-    
+    transition: all 0.1s ease;
 }
 
 .activity-box-picture6
@@ -700,6 +810,11 @@ img {
     margin: 0px;
     height: 68%;
 
+}
+
+.activity-box6:hover
+{
+    transform:scale(1.02);
 }
 
 .activity-box-picture6 img
@@ -742,6 +857,12 @@ img {
     
 }
 
+.LinkActivity-h3
+{
+    text-decoration: none;
+    color: black;
+}
+
 /* footer */
 
 .all-footer
@@ -753,6 +874,17 @@ img {
     width: 100%;    
     
 
+}
+
+.LinkFooter
+{
+    text-decoration: none;
+    color: black;
+}
+
+.LinkFooter:hover
+{
+    text-decoration: underline;
 }
 
 .all-box
@@ -791,7 +923,7 @@ img {
 {
     display: flex;
     flex-flow:column wrap;
-    margin: 5% ;
+    margin: 7px 0 0 19px;
     font-size: 1.2em;
     line-height: 2em;
 
@@ -816,7 +948,7 @@ img {
 {
     display: flex;
     flex-flow:column wrap;
-    margin: 5% ;
+    margin: -13px 0px 0px 18px;
     font-size: 1.2em;
     line-height: 2em;
     
@@ -831,6 +963,8 @@ img {
     width: 20%;
     line-height: 150%;
     margin-left: 10%;
+    
+
 }
 .footertittlehelp
 {
@@ -845,9 +979,11 @@ img {
 {
     display: flex;
     flex-flow:column wrap;
-    margin: 5% ;
+    margin: -12px 0px 0 21px;
     font-size: 1.2em;
     line-height: 2em;
+    
+    
    
     
 }

@@ -20,16 +20,16 @@
             <nav class="main-nav">
                 <ul class="main-nav-list">
                     <li>
-                        <a href="#host">Hébergements</a>
+                        <a class="LinkHostHeader" href="#host" data-active="true">Hébergements</a>
                     </li>
                     <li>
-                        <a href="#activity">Activités</a>
+                        <a class="LinkActivityHeader" href="#activity" data-active="false">Activités</a>
                     </li>
-                    <li>
-                        <a href="#" target="_blank">S'inscrire</a>
-                    </li>
+                    <a class="LinkRegister" href="#" target="_blank">S'inscrire</a>
                 </ul>
+
             </nav>
+
         </div>
     </header>
 
@@ -44,7 +44,7 @@
                 <span class="search-logo-location">
                     <i class="fas fa-map-marker-alt fa"></i>
                 </span>
-                <input class="searchcity" type="text" name="Ville" placeholder="Marseille, France"/><a href="#"
+                <input class="searchcity" type="text" name="Ville" placeholder="Marseille, France" /><a href="#"
                     class="search-bouton"> <i class="fas fa-search"></i>Rechercher</a>
             </div>
 
@@ -53,7 +53,7 @@
                 <h3 class="FiltreTittle">Filtres</h3>
 
                 <div class="bouton">
-                    <a href="#" target="_blank">
+                    <a class="LinkFilter" href="#" target="_blank">
                         <div class="boutonicone">
                             <i class="fas fa-money-bill-wave iconefilter"></i>
                         </div>
@@ -61,7 +61,7 @@
                     </a>
                 </div>
                 <div class="bouton">
-                    <a href="#" target="_blank">
+                    <a class="LinkFilter" href="#" target="_blank">
                         <div class="boutonicone">
                             <i class="fas fa-child iconefilter"></i>
                         </div>
@@ -69,7 +69,7 @@
                     </a>
                 </div>
                 <div class="bouton">
-                    <a href="#" target="_blank">
+                    <a class="LinkFilter" href="#" target="_blank">
                         <div class="boutonicone">
                             <i class="fas fa-heart iconefilter"></i>
                         </div>
@@ -77,7 +77,7 @@
                     </a>
                 </div>
                 <div class="bouton">
-                    <a href="#" target="_blank">
+                    <a class="LinkFilter" href="#" target="_blank">
                         <div class="boutonicone">
                             <i class="fas fa-dog iconefilter"></i>
                         </div>
@@ -101,7 +101,7 @@
                 <h2 class="host-tittle" id="host">Hébergement à marseille</h2>
                 <div class="all-host">
                     <article class="host-box">
-                        <a href="#" target="_blank">
+                        <a class="LinkHost" href="#" target="_blank">
                             <figure class="host-box-picture">
                                 <img src="./image/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="logement à marseille">
                             </figure>
@@ -120,7 +120,7 @@
                     </article>
 
                     <article class="host-box">
-                        <a href="#" target="_blank">
+                        <a class="LinkHost" href="#" target="_blank">
                             <figure class="host-box-picture">
                                 <img src="./image/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="logement à marseille">
                             </figure>
@@ -139,7 +139,7 @@
                     </article>
 
                     <article class="host-box">
-                        <a href="#" target="_blank">
+                        <a class="LinkHost" href="#" target="_blank">
                             <figure class="host-box-picture">
                                 <img src="./image/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="logement à marseille">
                             </figure>
@@ -158,7 +158,7 @@
                     </article>
 
                     <article class="host-box">
-                        <a href="#" target="_blank">
+                        <a class="LinkHost" href="#" target="_blank">
                             <figure class="host-box-picture">
                                 <img src="./image/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="logement à marseille">
                             </figure>
@@ -177,7 +177,7 @@
                     </article>
 
                     <article class="host-box">
-                        <a href="#" target="_blank">
+                        <a class="LinkHost" href="#" target="_blank">
                             <figure class="host-box-picture">
                                 <img src="./image/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="logement à marseille">
                             </figure>
@@ -196,7 +196,7 @@
                     </article>
 
                     <article class="host-box">
-                        <a href="#" target="_blank">
+                        <a class="LinkHost" href="#" target="_blank">
                             <figure class="host-box-picture">
                                 <img src="./image/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="logement à marseille">
                             </figure>
@@ -229,7 +229,7 @@
                 </div>
                 <div class="all-popular">
                     <article class="popular-box">
-                        <a class="popular-picture-txt" href="#" target="_blank">
+                        <a class="LinkPopular" href="#" target="_blank">
                             <figure class="popular-box-picture">
                                 <img src="./image/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="logement à marseille">
                             </figure>
@@ -249,12 +249,12 @@
                     </article>
 
                     <article class="popular-box">
-                        <a  class="popular-picture-txt" href="#" target="_blank">
+                        <a class="LinkPopular" href="#" target="_blank">
                             <figure class="popular-box-picture">
                                 <img src="./image/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="logement à marseille">
                             </figure>
                             <figcaption class="popular-box-tittle">
-                                <h3 class="popular-h3">Au coeur de l'eau  Chambres d'hôtes</h3>
+                                <h3 class="popular-h3">Au coeur de l'eau Chambres d'hôtes</h3>
                                 <p class="popular-p">Nuit à partir de 71<strong>€</strong></p>
                             </figcaption>
 
@@ -270,26 +270,25 @@
                     </article>
 
 
-                    <article class="popular-box">                        
-                            <a class="popular-picture-txt" href="#" target="_blank">
-                                <figure class="popular-box-picture">
-                                    <img src="./image/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                                        alt="logement à marseille">
+                    <article class="popular-box">
+                        <a class="LinkPopular" href="#" target="_blank">
+                            <figure class="popular-box-picture">
+                                <img src="./image/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="logement à marseille">
 
-                                </figure>
-                                <figcaption class="popular-box-tittle">
-                                    <h3 class="popular-h3">Hôtel tout bleu et blanc</h3>
-                                    <p class="popular-p">Nuit à partir de 68<strong>€</strong></p>
-                                </figcaption>
-                                <div class="popular-box-star">
-                                    <i class="fas fa-star starok" data-active="true" aria-hidden="true"></i>
-                                    <i class="fas fa-star starok" data-active="true" aria-hidden="true"></i>
-                                    <i class="fas fa-star starok" data-active="true" aria-hidden="true"></i>
-                                    <i class="fas fa-star starok" data-active="true" aria-hidden="true"></i>
-                                    <i class="fas fa-star greystar" data-active="false" aria-hidden="true"></i>
-                                </div>
-                            </a>
-                        
+                            </figure>
+                            <figcaption class="popular-box-tittle">
+                                <h3 class="popular-h3">Hôtel tout bleu et blanc</h3>
+                                <p class="popular-p">Nuit à partir de 68<strong>€</strong></p>
+                            </figcaption>
+                            <div class="popular-box-star">
+                                <i class="fas fa-star starok" data-active="true" aria-hidden="true"></i>
+                                <i class="fas fa-star starok" data-active="true" aria-hidden="true"></i>
+                                <i class="fas fa-star starok" data-active="true" aria-hidden="true"></i>
+                                <i class="fas fa-star starok" data-active="true" aria-hidden="true"></i>
+                                <i class="fas fa-star greystar" data-active="false" aria-hidden="true"></i>
+                            </div>
+                        </a>
+
                     </article>
                 </div>
             </div>
@@ -302,17 +301,17 @@
             <h2 class="ActivityTittle" id="activity"> Activités à Marseille</h2>
             <div class="all-activity">
                 <article class="activity-box1">
-                    <a href="#" target="_blank">
+                    <a class="LinkActivity-h3" href="#" target="_blank">
                         <figure class="activity-special">
                             <img src="./image/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="activités à marseille">
                         </figure>
                         <figcaption class="activity-box-tittle">
-                            <h3>Vieux Port</h3>
+                            <h3 >Vieux Port</h3>
                         </figcaption>
                     </a>
                 </article>
                 <article class="activity-box2">
-                    <a href="#" target="_blank">
+                    <a class="LinkActivity-h3" href="#" target="_blank">
                         <figure class="activity-box-picture2">
                             <img src="./image/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="activités à marseille">
                         </figure>
@@ -322,7 +321,7 @@
                     </a>
                 </article>
                 <article class="activity-box4">
-                    <a href="#" target="_blank">
+                    <a class="LinkActivity-h3" href="#" target="_blank">
                         <figure class="activity-special">
                             <img src="./image/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="activités à marseille">
                         </figure>
@@ -332,7 +331,7 @@
                     </a>
                 </article>
                 <article class="activity-box5">
-                    <a href="#" target="_blank">
+                    <a class="LinkActivity-h3" href="#" target="_blank">
                         <figure class="activity-box-picture5">
                             <img src="./image/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="activités à marseille">
                         </figure>
@@ -341,9 +340,9 @@
                         </figcaption>
 
                     </a>
-                </article>             
+                </article>
                 <article class="activity-box3">
-                    <a href="#" target="_blank">
+                    <a class="LinkActivity-h3" href="#" target="_blank">
                         <figure class="activity-box-picture3">
                             <img src="./image/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="activités à marseille">
                         </figure>
@@ -353,7 +352,7 @@
                     </a>
                 </article>
                 <article class="activity-box6">
-                    <a href="#" target="_blank">
+                    <a class="LinkActivity-h3" href="#" target="_blank">
                         <figure class="activity-box-picture6">
                             <img src="./image/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="activités à marseille">
                         </figure>
@@ -362,7 +361,7 @@
                         </figcaption>
                     </a>
                 </article>
-                
+
             </div>
         </section>
     </section>
@@ -377,25 +376,25 @@
                 <div class="box-about">
                     <h3 class="FooterTittleabout">A propos</h3>
                     <div class="Footerabout">
-                        <a href="#" target="_blank"> Fonctionnement du site</a>
-                        <a href="#" target="_blank"> Conditions dénérales de vente</a>
-                        <a href="#" target="_blank"> Données et confidentialité</a>
+                        <a class="LinkFooter" href="#" target="_blank"> Fonctionnement du site</a>
+                        <a class="LinkFooter" href="#" target="_blank"> Conditions dénérales de vente</a>
+                        <a class="LinkFooter" href="#" target="_blank"> Données et confidentialité</a>
                     </div>
                 </div>
 
                 <div class="box-host">
                     <h3 class="FooterTittlehost">Nos hébergements</h3>
                     <div class="Footerhost">
-                        <a href="#" target="_blank"> Charte qualité</a>
-                        <a href="#" target="_blank"> Soumettre votre hôtel</a>
+                        <a class="LinkFooter" href="#" target="_blank"> Charte qualité</a>
+                        <a class="LinkFooter" href="#" target="_blank"> Soumettre votre hôtel</a>
                     </div>
                 </div>
 
                 <div class="box-help">
                     <h3 class="footertittlehelp">Assistance</h3>
                     <div class="Footerhelp">
-                        <a href="#" target="_blank"> Centre d'aide</a>
-                        <a href="#" target="_blank"> Nous contacter</a>
+                        <a class="LinkFooter" href="#" target="_blank"> Centre d'aide</a>
+                        <a class="LinkFooter" href="#" target="_blank"> Nous contacter</a>
                     </div>
                 </div>
             </div>
