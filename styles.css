@@ -6,6 +6,7 @@
 
 body
 {
+    margin: 0px;
     font-family: "Raleway", sans-serif ;
 }
 
@@ -15,66 +16,79 @@ body
 }
 
 
+
 /* tête du site */
-@media (min-width: 960px) {
+
 	.main-header .container {
-		justify-content: space-between;
+        max-width: 1440px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+   margin: auto;
+    
 	}
+
+
+.mh-logo
+{
+    margin: 0px;
 }
 img {
-    margin: 0px;
-    max-width: 100%;
-    height: auto;
     width: 30%;
+    max-width: 100%;
+	height: auto;
+    
 }
 
 .container {
-    width: 960px;
-    max-width: 100%;
+    max-width: 1440px;
+	max-width: 100%;
+	padding: 0 10% 0 7%;
+	
     
 }
 
-.main-header .container
- {
-    display: flex;
-    align-items: center;
-    
-    flex-wrap: wrap;
-    
-}
 
 .bloc-nav
 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-
+    flex-wrap: wrap;
+}
+.main-nav
+{
+    display: flex;
+    padding: 0px 24px 8px 0px;
+    flex-wrap: wrap;
 }
 .main-nav ul 
 {
-    display: flex;
-    list-style: none;
+    display:flex;
+
+    margin: 1em 0 .5em;
 	text-align: center;
-    padding-right: 30px;
 }
     
 
    
 .main-nav li 
 {
-    display: inline;
+        display: inline;
     
 }
 
 .main-nav a {
+    
     display: inline-block;
-    padding: .5em 1.5em;
+	padding: .5em 1.5em;
     
 }
 
 .LinkRegister
 {
-    
+    flex-wrap: nowrap;
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
@@ -90,6 +104,7 @@ img {
 
 .LinkHostHeader
 {
+    border-top: 2px solid #0065FC;
     text-decoration: none;
     font-size: 1.35em;
     color: #0065FC;
@@ -103,9 +118,12 @@ img {
 
 .all-sections
 {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
     
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .search
@@ -297,9 +315,8 @@ img {
     background-color: #F2F2F2;
     border-radius: 20px;
     display: flex;
-    flex-flow: column wrap;
-    margin: 0;
-    width: 30%;
+    flex-direction: column;
+    width: 35%;
     
     
     
@@ -308,15 +325,17 @@ img {
 .group-popular-tittle-logo
 {
     display: flex;
-    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .popular-tittle
 {
     
-    display: flex;
-    margin: 3% -11% 4% 5%;
-    width: 80%;
+   
+    
+  
     font-size: 1.9em;
     
 }
@@ -324,9 +343,8 @@ img {
 .popular-logo
 {
     
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    
+  
     width: 20%;
 }
 
@@ -338,8 +356,8 @@ img {
     display: flex;
     flex-flow: column wrap;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    
+    
 }
 
 .popular-box
@@ -348,12 +366,12 @@ img {
     border-radius: 20px;
     box-shadow: 0 0 20px #9e9494;
     
-    display: flex;
-    flex-flow: column wrap;
-    margin: 10px;
+    
+    
+    margin: 9px 23px 17px 23px;
     height: 155px;
     width: 90%;
-    line-height: 10%;
+    
     transition: all 0.1s ease;
      
 }
@@ -373,16 +391,13 @@ img {
 .popular-box-picture
 {
     width: 35%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 ;
+    
+      margin: 0 ;
     
 }
 .popular-box-picture img
 {
     width: 75%;
-    display: flex;
-    flex-wrap: wrap;
     border-radius: 30px 0px 0 30px;
     height: 130px;
     object-fit: cover;
@@ -392,35 +407,30 @@ img {
 .popular-box-tittle
 {
   
-    display: flex;
-    width: 65%;
-    flex-flow:column wrap;
     
 }
 
 .popular-h3
 {
-    display: flex;
+    
     font-size: 1.35em;
     font-weight: bold;
-    margin: -124px 0px 9px 150px;
+    
 
 }
 .popular-p
 {
-    display: flex;
+    
     font-size: 1.35em;
-    margin: 20px 0px 0px 150px;
+    
 }
 
 
 .popular-box-star
 {
     
-    display: revert;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: flex-end;
+    
+    
     margin: -29px 0px 0px 157px;
 }
 
@@ -446,8 +456,8 @@ img {
     
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 33px 0px 104px;
-    width: 54%;
+    margin: 0px 33px 0px 64px;
+    width: 55%;
     height: 50%;
     border-radius: 20px;
 }
@@ -622,10 +632,11 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    width: 20%;
-    height: 63%;
+    width: 26%;
+    height: 68%;
     position: relative;
     top: -0.5%;
+    left: -5%;
     transition: all 0.1s ease;
     
 }
@@ -634,6 +645,34 @@ text-decoration: none;
 {
     transform:scale(1.02);
    
+}
+
+.activity-box-picture1
+{
+    
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    height: 197%;
+}
+.activity-box-picture1 img
+
+{
+    border-radius: 20px 20px 0 0;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+
+}
+.activity-box-tittle
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -6px 0 0 17px;
+    font-size: 1.2em;
+    font-weight: bold;
+    
 }
 
 
@@ -646,11 +685,11 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 22%;
-    height: 32%;
+    width: 26%;
+    height: 35%;
     position: relative;
-    top: -16%;
-    left: 2%;
+    top: -17%;
+    left: -3%;
     transition: all 0.1s ease;
 }
 
@@ -665,7 +704,7 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    height: 41%;
+    height: 46%;
 
 }
 
@@ -686,11 +725,11 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 22%;
-    height: 27%;
+    width: 26%;
+    height: 26%;
     position: relative;
-    top: -32.5%;
-    left: 2%;
+    top: -30%;
+    left: -3%;
     transition: all 0.1s ease;
 }
 
@@ -727,10 +766,10 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    width: 20%;
-    height: 63%;
+    width: 26%;
+    height: 68%;
     position: relative;
-    left: 4%;
+    left: -1%;
     top: -1%;
     transition: all 0.1s ease;
 }
@@ -738,6 +777,34 @@ text-decoration: none;
 .activity-box4:hover
 {
     transform:scale(1.02);
+}
+
+.activity-box-picture4
+{
+    
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    height: 197%;
+}
+.activity-box-picture4 img
+
+{
+    border-radius: 20px 20px 0 0;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+
+}
+.activity-box-tittle
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -6px 0 0 17px;
+    font-size: 1.2em;
+    font-weight: bold;
+    
 }
 
 .activity-box5
@@ -749,11 +816,11 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 22%;
+    width: 27%;
     height: 28%;
     position: relative;
-    top: -18.5%;
-    left: 6%;
+    top: -71.5%;
+    left: 82%;
     transition: all 0.1s ease;
 }
 
@@ -791,11 +858,11 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 22%;
-    height: 31%;
+    width: 28%;
+    height: 32%;
     position: relative;
-    left: 26%;
-    top: -35%;
+    left: 27.5%;
+    top: -33.5%;
     transition: all 0.1s ease;
 }
 
@@ -826,33 +893,7 @@ text-decoration: none;
 
 
 
-.activity-special
-{
-    
-    display: flex;
-    width: 100%;
-    margin: 0px;
-    height: 187%;
-}
-.activity-special img
 
-{
-    border-radius: 20px 20px 0 0;
-    width:100%;
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: cover;
-
-}
-.activity-box-tittle
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: -6px 0 0 17px;
-    font-size: 1.2em;
-    font-weight: bold;
-    
-}
 
 .LinkActivity-h3
 {
