@@ -20,7 +20,7 @@ body
 /* tête du site */
 
 	.main-header .container {
-        max-width: 1440px;
+    max-width: 1440px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -32,7 +32,7 @@ body
 
 .mh-logo
 {
-    margin: 0px;
+    margin-left: 3%;
 }
 img {
     width: 30%;
@@ -44,7 +44,7 @@ img {
 .container {
     max-width: 1440px;
 	max-width: 100%;
-	padding: 0 10% 0 7%;
+	
 	
     
 }
@@ -56,6 +56,7 @@ img {
     flex-direction: row-reverse;
     align-items: center;
     flex-wrap: wrap;
+    margin-right: 4%;
 }
 .main-nav
 {
@@ -132,7 +133,6 @@ img {
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
-    margin-left: 6.5%;
     width: 100%;
     padding:10px;
 
@@ -316,7 +316,8 @@ img {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 31%;
+    margin-left: 2%;
     
     
     
@@ -333,9 +334,6 @@ img {
 .popular-tittle
 {
     
-   
-    
-  
     font-size: 1.9em;
     
 }
@@ -362,16 +360,12 @@ img {
 
 .popular-box
 {
+    display: flex;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 20px #9e9494;
-    
-    
-    
     margin: 9px 23px 17px 23px;
-    height: 155px;
     width: 90%;
-    
     transition: all 0.1s ease;
      
 }
@@ -384,20 +378,23 @@ img {
 .LinkPopular
 
 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-decoration: none;
     color: black;
 
 }
 .popular-box-picture
 {
+    display: flex;
     width: 35%;
-    
-      margin: 0 ;
+    margin: 0;
     
 }
 .popular-box-picture img
 {
-    width: 75%;
+    width: 87%;
     border-radius: 30px 0px 0 30px;
     height: 130px;
     object-fit: cover;
@@ -406,32 +403,36 @@ img {
 
 .popular-box-tittle
 {
-  
+    display: inline;
+    flex-flow: column wrap;
+    width: 64%;
+    margin-top: 9px;
     
 }
 
 .popular-h3
 {
     
-    font-size: 1.35em;
+    display: flex;
+    font-size: 1.2em;
     font-weight: bold;
+    margin: 0;
     
 
 }
 .popular-p
 {
-    
-    font-size: 1.35em;
+    margin: 0;
+    font-size: 1.2em;
+   
     
 }
 
 
 .popular-box-star
 {
-    
-    
-    
-    margin: -29px 0px 0px 157px;
+    display: inline;
+    margin: -29px 0px 0px 0px;
 }
 
 .starok
@@ -453,12 +454,10 @@ img {
 .host
 {
     background-color: #F2F2F2;
-    
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 33px 0px 64px;
-    width: 55%;
-    height: 50%;
+    width: 67%;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -551,7 +550,7 @@ text-decoration: none;
 {
     margin: 4px 0 0 0;
     padding: 4px;
-    font-size: 1.35em;
+    font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
 }
@@ -559,7 +558,7 @@ text-decoration: none;
 .host-p
 {
     padding: 4px;
-    font-size: 1.35em;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
@@ -603,7 +602,7 @@ text-decoration: none;
 {
     
     display: flex;
-    margin-left: 7%;
+    margin: 10px 0px 40px 15px;
     font-size: 1.7em;
     font-weight: bold;
    
@@ -614,7 +613,7 @@ text-decoration: none;
   
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 87%;
   align-items: center;
   justify-content: center;
   margin-right: 6%;
@@ -628,15 +627,14 @@ text-decoration: none;
     background-color: white;
     box-shadow: 0 0 20px #9e9494;
     border-radius: 20px;
-    
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    width: 26%;
-    height: 68%;
+    width: 27%;
+    height: 60%;
     position: relative;
-    top: -0.5%;
-    left: -5%;
+    top: -3.5%;
+    left: -10%;
     transition: all 0.1s ease;
     
 }
@@ -653,7 +651,7 @@ text-decoration: none;
     display: flex;
     width: 100%;
     margin: 0px;
-    height: 197%;
+    height: 162%;
 }
 .activity-box-picture1 img
 
@@ -681,15 +679,14 @@ text-decoration: none;
     background-color: white;
     box-shadow: 0 0 20px #9e9494;
     border-radius: 20px;
-   
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
     width: 26%;
-    height: 35%;
+    height: 32%;
     position: relative;
-    top: -17%;
-    left: -3%;
+    top: -18%;
+    left: -7.5%;
     transition: all 0.1s ease;
 }
 
@@ -704,7 +701,7 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    height: 46%;
+    height: 40%;
 
 }
 
@@ -721,15 +718,14 @@ text-decoration: none;
     background-color: white;
     box-shadow: 0 0 20px #9e9494;
     border-radius: 20px;
-    
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
     width: 26%;
-    height: 26%;
+    height: 25%;
     position: relative;
-    top: -30%;
-    left: -3%;
+    top: -36%;
+    left: -7.5%;
     transition: all 0.1s ease;
 }
 
@@ -744,7 +740,7 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    height: 64%;
+    height: 59%;
 
 }
 
@@ -762,15 +758,14 @@ text-decoration: none;
     background-color: white;
     box-shadow: 0 0 20px #9e9494;
     border-radius: 20px;
-    
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    width: 26%;
-    height: 68%;
+    width: 27%;
+    height: 60%;
     position: relative;
-    left: -1%;
-    top: -1%;
+    left: -5%;
+    top: -4%;
     transition: all 0.1s ease;
 }
 
@@ -785,7 +780,7 @@ text-decoration: none;
     display: flex;
     width: 100%;
     margin: 0px;
-    height: 197%;
+    height: 160%;
 }
 .activity-box-picture4 img
 
@@ -812,15 +807,14 @@ text-decoration: none;
     background-color: white;
     box-shadow: 0 0 20px #9e9494;
     border-radius: 20px;
-    
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
     width: 27%;
-    height: 28%;
+    height: 22%;
     position: relative;
-    top: -71.5%;
-    left: 82%;
+    top: -73%;
+    left: 79%;
     transition: all 0.1s ease;
 }
 
@@ -834,9 +828,8 @@ text-decoration: none;
     width: 100%;
     display: flex;
     flex-flow: column wrap;
-    object-fit: cover;
     margin: 0px;
-    height: 67%;
+    height: 51%;
 
 }
 
@@ -846,6 +839,7 @@ text-decoration: none;
     border-radius: 20px 20px 0 0;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 
@@ -854,15 +848,14 @@ text-decoration: none;
     background-color: white;
     box-shadow: 0 0 20px #9e9494;
     border-radius: 20px;
-    
     display: flex;
     flex-flow: column wrap;
     margin: 5px;
-    width: 28%;
-    height: 32%;
+    width: 27%;
+    height: 34%;
     position: relative;
-    left: 27.5%;
-    top: -33.5%;
+    left: 24.5%;
+    top: -41%;
     transition: all 0.1s ease;
 }
 
@@ -872,7 +865,7 @@ text-decoration: none;
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    height: 68%;
+    height: 75%;
 
 }
 
@@ -902,14 +895,19 @@ text-decoration: none;
 }
 
 /* footer */
-
+footer
+{
+    background-color: #F2F2F2;
+}
 .all-footer
 {
     
-    background-color: #F2F2F2;
+    width: 1440px;
+    
     display: flex;
-    flex-wrap:wrap;
-    width: 100%;    
+    max-width: 100%;
+    margin: auto;
+    box-sizing: border-box;;    
     
 
 }
@@ -931,7 +929,6 @@ text-decoration: none;
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
-    justify-content: center;
     width: 100%;
     
 }
@@ -945,15 +942,17 @@ text-decoration: none;
     width: 20%;
     line-height: 150%;
     margin-right: 10%;
+    
         
 }
 
 .FooterTittleabout
 {
     display: flex;
-    margin: 26px 0px -4px 18px;
+    margin: 26px 0px 15px 18px;
     font-weight: bold;
     font-size: 1.3em;
+
     
    
 }
@@ -964,6 +963,7 @@ text-decoration: none;
     margin: 7px 0 0 19px;
     font-size: 1.2em;
     line-height: 2em;
+    width: 100%;
 
     
 }
@@ -978,7 +978,7 @@ text-decoration: none;
 .FooterTittlehost
 {
     display: flex;
-    margin: 5%;
+    margin: 26px 0px 15px 18px;
     font-weight: bold;
     font-size: 1.3em;
 }
@@ -986,7 +986,7 @@ text-decoration: none;
 {
     display: flex;
     flex-flow:column wrap;
-    margin: -13px 0px 0px 18px;
+    margin: 7px 0 0 19px;
     font-size: 1.2em;
     line-height: 2em;
     
@@ -1007,7 +1007,7 @@ text-decoration: none;
 .footertittlehelp
 {
     display: flex;
-    margin: 5%;
+    margin: 26px 0px 15px 18px;
     font-weight: bold;
     font-size: 1.3em;
 
@@ -1017,7 +1017,7 @@ text-decoration: none;
 {
     display: flex;
     flex-flow:column wrap;
-    margin: -12px 0px 0 21px;
+    margin: 7px 0 0 19px;
     font-size: 1.2em;
     line-height: 2em;
     
