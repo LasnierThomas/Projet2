@@ -4,6 +4,31 @@
     src: url("font/Raleway-VariableFont_wght.ttf");        
 }
 
+@media screen and (min-width: 600px)
+
+{
+    body 
+    {
+        width: auto;
+    }
+.main-header
+{
+    flex-direction: column;
+}
+.main-nav
+{
+    align-items: flex-end;
+}
+.LinkRegister
+{
+    align-items: flex-start;
+}
+}
+
+
+
+
+
 body
 {
     margin: 0px;
