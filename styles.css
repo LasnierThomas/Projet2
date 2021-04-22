@@ -4,7 +4,7 @@
     src: url("font/Raleway-VariableFont_wght.ttf");        
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 1024px)
 
 {
     body 
@@ -22,6 +22,18 @@
 .LinkRegister
 {
     align-items: flex-start;
+}
+.host-popular
+{
+    flex-direction: column-reverse;
+}
+.popular
+{
+    flex-direction: row;
+}
+.all-popular
+{
+    flex-direction: row;
 }
 }
 
@@ -378,6 +390,7 @@ img {
     
     display: flex;
     flex-flow: column wrap;
+    align-content: center;
     width: 100%;
     
     
