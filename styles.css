@@ -4,38 +4,108 @@
     src: url("font/Raleway-VariableFont_wght.ttf");        
 }
 
-@media screen and (max-width: 1024px)
-
+@media screen and (max-width: 1403px)
 {
-    body 
-    {
-        width: auto;
+    .activity-box-picture4{
+        height: 141%;
     }
-.main-header
+
+    
+
+}
+@media screen and (max-width: 1339px)
 {
-    flex-direction: column;
+    
+    .host-popular{
+        flex-direction: column-reverse;
+    }
+    .popular
+    {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .all-popular
+    {
+        
+        flex-direction: row;
+    }
+    .group-popular-tittle-logo
+    {
+        justify-content: space-between;
+    }
+    .popular-tittle
+    {
+        margin-left:2.5%;
+    }
+    .popular-logo{
+        width: 6%;
+    }
+    .host{
+        width: 100%;
+    }
+    .all-footer
+    {
+        padding-left: 3%;
+    }
 }
-.main-nav
+@media  screen and (max-width: 1000px)
 {
-    align-items: flex-end;
+    
+    .popular
+    {
+        width:100%
+    }
+    .popular-box-picture img 
+    {
+        width: 100%;
+    }
+    .popular-box-tittle
+    {
+        width: 62%;
+    }
+    .popular-box-star
+    {
+        margin: -29px 12% 0 0 ;
+    }
+
+    .all-activity
+    {
+        max-width: 1100px;
+        width: 100%;
+    }
+    .activity-box1, .activity-box2, .activity-box3, .activity-box4, .activity-box5, .activity-box6
+    {
+        position: none;
+       width: 320px;
+       height: 280px;
+       overflow: hidden;
+    }
+   .activity-box-picture1, .activity-box-picture2, .activity-box-picture3, .activity-box-picture4, .activity-box-picture5, .activity-box-picture6
+   {
+       height: auto
+   }
+   .activity-box-picture1 img, .activity-box-picture2 img, .activity-box-picture3 img, .activity-box-picture4 img, .activity-box-picture5 img, .activity-box-picture6 img
+   {
+       width: 100%;
+       height: auto;
+       object-fit: cover;
+   }
 }
-.LinkRegister
+@media screen and (max-width: 607px)   
 {
-    align-items: flex-start;
+   .FiltreTittle
+   {
+       width: 100%;
+       margin: 11px;
+       margin-bottom: 0;
+
+   }
+   .LinkRegister
+   {
+       padding-right: 5%;
+   }
 }
-.host-popular
-{
-    flex-direction: column-reverse;
-}
-.popular
-{
-    flex-direction: row;
-}
-.all-popular
-{
-    flex-direction: row;
-}
-}
+
 
 
 
@@ -57,13 +127,13 @@ body
 /* tête du site */
 
 	.main-header .container {
-    max-width: 1440px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-   margin: auto;
-    
+        max-width: 1440px;
+        resize: none;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-wrap: wrap;
+        margin: auto;
 	}
 
 
@@ -93,7 +163,8 @@ img {
     flex-direction: row-reverse;
     align-items: center;
     flex-wrap: wrap;
-    margin-right: 4%;
+    margin: 0 0px 0px 30%;
+    
 }
 .main-nav
 {
@@ -127,6 +198,7 @@ img {
 .LinkRegister
 {
     flex-wrap: nowrap;
+    order: 2;
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
@@ -170,7 +242,7 @@ img {
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
-    width: 100%;
+    
     padding:10px;
 
 }
@@ -179,6 +251,7 @@ img {
 {
    
     display: flex;
+    flex-wrap: wrap;
     font-size: 2.2em;
     
 }
@@ -628,7 +701,7 @@ text-decoration: none;
 
 .Activity
 {
-   
+   width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 1% 0 -12% 0;
@@ -935,6 +1008,7 @@ text-decoration: none;
 /* footer */
 footer
 {
+    
     background-color: #F2F2F2;
 }
 .all-footer
@@ -977,7 +1051,6 @@ footer
     
     display: flex;
     flex-flow: column wrap;
-    width: 20%;
     line-height: 150%;
     margin-right: 10%;
     
