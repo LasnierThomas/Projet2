@@ -4,124 +4,6 @@
     src: url("font/Raleway-VariableFont_wght.ttf");        
 }
 
-@media screen and (max-width: 1403px)
-{
-    .activity-box-picture4{
-        height: 141%;
-    }
-
-    
-
-}
-@media screen and (max-width: 1339px)
-{
-    
-    .host-popular{
-        flex-direction: column-reverse;
-    }
-    .popular
-    {
-        width: 100%;
-        margin-bottom: 2%;
-    }
-    .all-popular
-    {
-        
-        flex-direction: row;
-    }
-    .group-popular-tittle-logo
-    {
-        justify-content: space-between;
-    }
-    .popular-tittle
-    {
-        margin-left:2.5%;
-    }
-    .popular-logo{
-        width: 6%;
-    }
-    .host{
-        width: 100%;
-    }
-    .all-footer
-    {
-        padding-left: 3%;
-    }
-}
-@media  screen and (max-width: 1000px)
-{
-    
-    .popular
-    {
-        width:100%
-    }
-    .popular-box-picture img 
-    {
-        width: 100%;
-    }
-    .popular-box-tittle
-    {
-        width: 62%;
-    }
-    .popular-box-star
-    {
-        margin: -29px 12% 0 0 ;
-    }
-
-    .all-activity
-    {
-        max-width: 1100px;
-        width: 100%;
-    }
-    .activity-box1, .activity-box2, .activity-box3, .activity-box4, .activity-box5, .activity-box6
-    {
-        position: none;
-       width: 320px;
-       height: 280px;
-       overflow: hidden;
-    }
-   .activity-box-picture1, .activity-box-picture2, .activity-box-picture3, .activity-box-picture4, .activity-box-picture5, .activity-box-picture6
-   {
-       height: auto
-   }
-   .activity-box-picture1 img, .activity-box-picture2 img, .activity-box-picture3 img, .activity-box-picture4 img, .activity-box-picture5 img, .activity-box-picture6 img
-   {
-       width: 100%;
-       height: auto;
-       object-fit: cover;
-   }
-}
-@media screen and (max-width: 746px)
-{
-    .all-box
-    {
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 607px)   
-{
-
-    .iconglass
-{
-    visibility: visible;
-}
-
-.wordsearch
-{
-    visibility: hidden;
-}
-   .FiltreTittle
-   {
-       width: 100%;
-       margin: 11px;
-       margin-bottom: 0;
-
-   }
-   .LinkRegister
-   {
-       padding-right: 5%;
-   }
-}
 
 
 
@@ -156,7 +38,7 @@ body
 
 .mh-logo
 {
-    margin-left: 3%;
+    margin: 0 0 0 3%;
 }
 img {
     width: 30%;
@@ -180,7 +62,7 @@ img {
     flex-direction: row-reverse;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 0px 0px 30%;
+    margin: 0 0px 0px 27%;
     
 }
 .main-nav
@@ -192,8 +74,7 @@ img {
 .main-nav ul 
 {
     display:flex;
-
-    margin: 1em 0 .5em;
+    margin: 0px 0px 12px 0;
 	text-align: center;
 }
     
@@ -208,14 +89,13 @@ img {
 .main-nav a {
     
     display: inline-block;
-	padding: .5em 1.5em;
+	padding: 30px 45px 0px 45px;
     
 }
 
 .LinkRegister
 {
     flex-wrap: nowrap;
-    order: 2;
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
@@ -1153,12 +1033,222 @@ footer
     margin: 7px 0 0 19px;
     font-size: 1.2em;
     line-height: 2em;
-    
-    
-   
-    
+     
 }
 
+@media screen and (max-width: 1403px)
+{
+    .activity-box-picture4{
+        height: 141%;
+    }
+
+    
+
+}
+@media screen and (max-width: 1339px)
+{
+    .bloc-nav
+    {
+        margin: 0 0 0 19%;
+    }
+    .host-popular
+    {
+        flex-direction: column-reverse;
+    }
+    .popular
+    {
+        width: 100%;
+        margin: 0 0 2% 0px;
+        
+    }
+    .all-popular
+    {
+        
+        flex-direction: row;
+    }
+    .group-popular-tittle-logo
+    {
+        justify-content: space-between;
+    }
+    .popular-tittle
+    {
+        margin-left:2.5%;
+    }
+    .popular-logo
+    {
+        width: 6%;
+    }
+    .host
+    {
+        width: 100%;
+        
+    }
+    .all-footer
+    {
+        padding-left: 3%;
+    }
+}
+
+@media  screen and (max-width: 1100px)
+{
+.host 
+    {
+        
+            width: 100%;
+            
+        
+    }
+    .popular
+    {
+        width:100%
+    }
+    .popular-box-picture img 
+    {
+        width: 100%;
+    }
+    .popular-box-tittle
+    {
+        width: 62%;
+    }
+    .popular-box-star
+    {
+        margin: -29px 12% 0 0 ;
+    }
+
+    .all-activity
+    {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0;
+    }
+    .activity-box1, .activity-box4
+    {
+        position: static;
+       width: 32%;
+       height: 215px;
+       margin: 6px;
+       overflow: hidden;
+    }
+    .activity-box2
+    {
+        position: static;
+    width: 32%;
+    height: 215px;
+    margin: 6px;
+    overflow: hidden;
+    }
+    .activity-box-picture2
+    {
+        height: 27%;
+    }
+    .activity-box-picture2 img
+    {
+        width: 100%;
+        height: 103%;
+        object-fit: cover;
+    }
+    .activity-box5
+    {
+        position: static;
+        width: 32%;
+        height: 215px;
+        margin: 6px;
+        overflow: hidden;
+    }
+    .activity-box-picture5
+    {
+        height: 55%;
+    }
+    .activity-box-picture5 img
+    {
+        width: 100%;
+        height: 102%;
+        object-fit: cover;
+    }
+    .activity-box3
+    {
+        position: static;
+        width: 32%;
+        height: 215px;
+        margin: 6px;
+        overflow: hidden;
+    }
+    
+    .activity-box-picture3
+    {
+        height: 54%;
+    }
+    .activity-box-picture3 img
+    {
+        width: 100%;
+        height: 103%;
+        object-fit: cover;
+    }
+    .activity-box6
+    {
+        position: static;
+        width: 32%;
+        height: 215px;
+        margin: 6px;
+        overflow: hidden;
+    }
+    .activity-box-picture6
+    {
+        height: 50%;
+    }
+    .activity-box-picture6 img
+    {
+    width: 100%;
+    height: 102%;
+    object-fit: cover;
+    }
+   .activity-box-picture1,.activity-box-picture4
+   {
+       height: 55%;
+   }
+   .activity-box-picture1 img, .activity-box-picture4 img
+   {
+       width: 100%;
+       height: auto;
+       object-fit: cover;
+   }
+
+   footer
+   {
+       margin-top: 16%;
+   }
+}
+@media screen and (max-width: 746px)
+{
+    .all-box
+    {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 607px)   
+{
+
+    .iconglass
+{
+    visibility: visible;
+}
+
+.wordsearch
+{
+    visibility: hidden;
+}
+   .FiltreTittle
+   {
+       width: 100%;
+       margin: 11px;
+       margin-bottom: 0;
+
+   }
+   .LinkRegister
+   {
+       padding-right: 5%;
+   }
+}
 
 
 
