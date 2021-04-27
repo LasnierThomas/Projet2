@@ -1053,6 +1053,13 @@ footer
     
 
 }
+@media screen and (max-width: 1385px) 
+{
+    .bloc-nav
+    {
+        margin: 0 0 0 24%;
+    }
+}
 @media screen and (max-width: 1339px)
 {
     .bloc-nav
@@ -1236,6 +1243,13 @@ footer
        margin-top: 16%;
    }
 }
+@media screen and (max-width: 1015px) 
+{
+    .bloc-nav
+    {
+        margin: 0 0 0 -6%;
+    }
+}
 
 @media  screen and (max-width: 926px) 
 {
@@ -1246,13 +1260,9 @@ footer
     .bloc-nav
     {
         margin-left: -6%;
-        order: 2;
+        
     }
-    .LinkHostHeader
-    {
-        margin-left: -30%;
-        padding: 46px 146px 0px 250px;
-    }
+    
     .main-nav
     {
         padding: 0;
@@ -1260,9 +1270,8 @@ footer
     .main-nav li
     {
         width: 100%;
-        border-bottom: 4px solid #F2F2F2;
         
-        padding: 0px 52px 0px 155px;
+        
     }
     .main-nav li :hover
 {
@@ -1273,6 +1282,11 @@ footer
     
     color: #0065FC;
 }
+
+    .main-nav a
+    {
+        padding: 30px 45px 0px 11px;
+    }
     .LinkRegister
     {
         margin-right: 8%;
@@ -1336,6 +1350,13 @@ footer
 
 }
 
+@media screen and (max-width: 1015px) 
+{
+    .bloc-nav
+    {
+        margin: 0 0 0 -6%;
+    }
+}
 @media screen and (max-width: 746px)
 {
 .all-box
@@ -1345,9 +1366,19 @@ footer
 }
    
 }
-@media screen and (max-width: 607px)   
+@media screen and (max-width: 601px)   
 {
-
+    .bloc-nav
+    {
+        order: 2;
+    }
+    .main-nav li
+    {
+        padding: 0px 25px 0px 84px;
+        border-top: none;
+        border-bottom: 3px solid #F2F2F2;
+        width: 50%;
+    }
     .iconglass
 {
     visibility: visible;
@@ -1369,6 +1400,10 @@ footer
        margin: 11px;
        margin-bottom: 0;
 
+   }
+   .searchlocation
+   {
+       width: 100%;
    }
    .searchcity 
    {
@@ -1453,13 +1488,16 @@ footer
         height: 34%;
     }
 }
-@media screen and (max-width: 524px) 
+@media screen and (max-width: 534px) 
 {
-    .main-header, .container
+    .main-nav li 
     {
-
+        padding: 0px 25px 0px 51px;
     }
-    
+    .LinkRegister
+    {
+        margin-right: -2%;
+    }
 }
 
 
