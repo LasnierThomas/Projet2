@@ -441,7 +441,7 @@ img {
 }
 .popular-p
 {
-    margin: 0;
+    margin: 2% 0 17% 0px;
     font-size: 1.2em;
    
     
@@ -451,7 +451,7 @@ img {
 .popular-box-star
 {
     display: inline;
-    margin: -29px 0px 0px 0px;
+    
 }
 
 .starok
@@ -1092,6 +1092,10 @@ footer
     {
         width: 9%;
     }
+    .popular-p
+    {
+        margin: 2% 0 10% 0px;
+    }
     .host
     {
         width: 100%;
@@ -1133,10 +1137,7 @@ footer
     {
         width: 62%;
     }
-    .popular-box-star
-    {
-        margin: -29px 12% 0 0 ;
-    }
+    
 
     .all-activity
     {
@@ -1266,7 +1267,7 @@ footer
     .popular-box-star
     {
         width: 100%;
-        margin: -29px -75% 0 0;
+        
     }
     .main-header .container
     {
@@ -1450,7 +1451,7 @@ footer
    .popular-box-star
    {
        width: 100%;
-    margin: -29px -75% 0 0;
+    
    }
    .host-box
    {
