@@ -261,7 +261,7 @@ img {
     border: solid 2px #eae9e9;
     display: flex;
     flex-wrap: nowrap;
-    margin: 2% 1% 2% 1%;
+    margin: 4% 1% 2% 1%;
     padding: 15px 15px 17px 0px;
     border-radius: 50px 50px 50px 50px;
     transition: all 0.1s ease;
@@ -383,7 +383,7 @@ img {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 20px #9e9494;
-    margin: 9px 23px 17px 23px;
+    margin: 5% 0 0 0;
     width: 90%;
     transition: all 0.1s ease;
      
@@ -451,6 +451,8 @@ img {
 .popular-box-star
 {
     display: inline;
+    width: 100%;
+    margin: -8% 0% 0% 37%;
     
 }
 
