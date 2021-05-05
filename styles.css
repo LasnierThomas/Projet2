@@ -130,7 +130,7 @@ img {
 
 /* section1 */
 
-.all-sections
+.all-blocs
 {
     max-width: 1440px;
     margin: auto;
@@ -261,7 +261,7 @@ img {
     border: solid 2px #eae9e9;
     display: flex;
     flex-wrap: nowrap;
-    margin: 4% 1% 2% 1%;
+    margin: 2% 1% 2% 1%;
     padding: 15px 15px 17px 0px;
     border-radius: 50px 50px 50px 50px;
     transition: all 0.1s ease;
@@ -1392,7 +1392,7 @@ footer
     }
     .main-nav li
     {
-        padding: 0px 25px 0px 84px;
+        padding: 0px 10% 0px 33%;
         border-top: none;
         border-bottom: 3px solid #F2F2F2;
         width: 50%;
