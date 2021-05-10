@@ -478,35 +478,26 @@ text-decoration: none;
    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 1% 0 -12% 0;
-    
+    margin: 1% 0 -12% 0;    
 }
-
-
 .activity-title
 {
     
     display: flex;
     margin: 10px 0px 40px 15px;
     font-size: 1.7em;
-    font-weight: bold;
-   
+    font-weight: bold;  
 }
 
 .all-activity
-{
-  
+{ 
   display: flex;
   flex-wrap: wrap;
   width: 87%;
   align-items: center;
   justify-content: center;
-  margin-right: 6%;
-  
+  margin-right: 6%;  
 }
-
-
-
 .activity-box1
 {
     background-color: white;
@@ -520,19 +511,14 @@ text-decoration: none;
     position: relative;
     top: -3.5%;
     left: -10%;
-    transition: all 0.1s ease;
-    
+    transition: all 0.1s ease;    
 }
-
 .activity-box1:hover
 {
-    transform:scale(1.02);
-   
+    transform:scale(1.02);  
 }
-
 .activity-box-picture1
 {
-    
     display: flex;
     width: 100%;
     margin: 0px;
@@ -540,7 +526,6 @@ text-decoration: none;
     flex-direction: column;
 }
 .activity-box-picture1 img
-
 {
     border-radius: 20px 20px 0 0;
     width:100%;
@@ -548,7 +533,6 @@ text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     object-fit: cover;
-
 }
 .activity-box-title
 {
@@ -556,11 +540,8 @@ text-decoration: none;
     flex-wrap: wrap;
     margin: -6px 0 0 17px;
     font-size: 1.2em;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
-
-
 .activity-box2
 {
     background-color: white;
@@ -576,12 +557,10 @@ text-decoration: none;
     left: -7.5%;
     transition: all 0.1s ease;
 }
-
 .activity-box2:hover
 {
     transform:scale(1.02);
 }
-
 .activity-box-picture2
 {
     width: 100%;
@@ -589,9 +568,7 @@ text-decoration: none;
     flex-direction: column ;
     margin: 0px;
     height: 40%;
-
 }
-
 .activity-box-picture2 img
 {
     display: flex;
@@ -615,12 +592,10 @@ text-decoration: none;
     left: -7.5%;
     transition: all 0.1s ease;
 }
-
 .activity-box3:hover
 {
     transform:scale(1.02);
 }
-
 .activity-box-picture3
 {
     width: 100%;
@@ -628,9 +603,7 @@ text-decoration: none;
     flex-direction: column ;
     margin: 0px;
     height: 59%;
-
 }
-
 .activity-box-picture3 img
 {
     display: flex;
@@ -639,7 +612,6 @@ text-decoration: none;
     height: 116%;
     object-fit: cover;
 }
-
 .activity-box4
 {
     background-color: white;
@@ -655,23 +627,19 @@ text-decoration: none;
     top: -4%;
     transition: all 0.1s ease;
 }
-
 .activity-box4:hover
 {
     transform:scale(1.02);
 }
-
 .activity-box-picture4
-{
-    
-    display: flex;
+{   
+   display: flex;
     width: 100%;
     margin: 0px;
     height: 160%;
     flex-direction: column;
 }
 .activity-box-picture4 img
-
 {
     border-radius: 20px 20px 0 0;
     width:100%;
@@ -679,7 +647,6 @@ text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     object-fit: cover;
-
 }
 .activity-box-title
 {
@@ -687,10 +654,8 @@ text-decoration: none;
     flex-wrap: wrap;
     margin: -6px 0 0 17px;
     font-size: 1.2em;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
-
 .activity-box5
 {
     background-color: white;
@@ -706,12 +671,10 @@ text-decoration: none;
     left: 79%;
     transition: all 0.1s ease;
 }
-
 .activity-box5:hover
 {
     transform:scale(1.02);
 }
-
 .activity-box-picture5
 {
     width: 100%;
@@ -719,9 +682,7 @@ text-decoration: none;
     flex-direction: column ;
     margin: 0px;
     height: 51%;
-
 }
-
 .activity-box-picture5 img
 {
     display: flex;
@@ -730,8 +691,6 @@ text-decoration: none;
     height: 137%;
     object-fit: cover;
 }
-
-
 .activity-box6
 {
     background-color: white;
@@ -747,7 +706,6 @@ text-decoration: none;
     top: -41%;
     transition: all 0.1s ease;
 }
-
 .activity-box-picture6
 {
     width: 100%;
@@ -755,14 +713,11 @@ text-decoration: none;
     flex-direction: column ;
     margin: 0px;
     height: 75%;
-
 }
-
 .activity-box6:hover
 {
     transform:scale(1.02);
 }
-
 .activity-box-picture6 img
 {
     display: flex;
@@ -771,12 +726,6 @@ text-decoration: none;
     height: 104%;
     object-fit: cover;
 }
-
-
-
-
-
-
 .link-activity-h3
 {
     text-decoration: none;
