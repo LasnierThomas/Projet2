@@ -1113,6 +1113,13 @@ footer
         padding-left: 3%;
     }
 }
+@media screen and (max-width: 1274px)
+{
+.activity-box-picture5
+{
+    height: 43%;
+}
+}
 @media screen and (max-width: 1223px)
  {
      .bloc-nav
@@ -1235,7 +1242,7 @@ footer
     }
    .activity-box-picture1,.activity-box-picture4
    {
-       height: 41%;
+       height: 36%;
    }
    .activity-box-picture1 img, .activity-box-picture4 img
    {
@@ -1256,7 +1263,63 @@ footer
         margin: 0 0 0 -6%;
     }
 }
-
+@media  screen and (max-width: 964px) 
+{
+    .activity-box1
+    {
+        width: 45%;
+        height: 20%;
+    }
+    .activity-box-picture1
+    {
+        height: 42%;
+    }
+    .activity-box2
+    {
+        width: 45%;
+        height: 20%;
+    }
+    .activity-box-picture2
+    {
+        height: 74%;
+    }
+    .activity-box4
+    {
+        width: 45%;
+        height: 20%;
+    }
+    .activity-box-picture4
+    {
+        height: 42%;
+    }
+    .activity-box5
+    {
+        width: 45%;
+        height: 20%;
+    }
+    .activity-box-picture5
+    {
+        height: 74%;
+    }
+    .activity-box3
+    {
+        width: 45%;
+        height: 20%;
+    }
+    .activity-box-picture3
+    {
+        height: 74%;
+    }
+    .activity-box6
+    {
+        width: 45%;
+        height: 20%;
+    }
+    .activity-box-picture6
+    {
+        height: 74%;
+    }
+}
 @media  screen and (max-width: 926px) 
 {
     .popular
@@ -1325,70 +1388,11 @@ footer
     }
 
 
-    .activity-box1
-    {
-        width: 45%;
-        height: 20%;
-    }
-    .activity-box-picture1
-    {
-        height: 42%;
-    }
-    .activity-box2
-    {
-        width: 45%;
-        height: 20%;
-    }
-    .activity-box-picture2
-    {
-        height: 74%;
-    }
-    .activity-box4
-    {
-        width: 45%;
-        height: 20%;
-    }
-    .activity-box-picture4
-    {
-        height: 42%;
-    }
-    .activity-box5
-    {
-        width: 45%;
-        height: 20%;
-    }
-    .activity-box-picture5
-    {
-        height: 74%;
-    }
-    .activity-box3
-    {
-        width: 45%;
-        height: 20%;
-    }
-    .activity-box-picture3
-    {
-        height: 74%;
-    }
-    .activity-box6
-    {
-        width: 45%;
-        height: 20%;
-    }
-    .activity-box-picture6
-    {
-        height: 74%;
-    }
+    
 
 }
 
-@media screen and (max-width: 1015px) 
-{
-    .bloc-nav
-    {
-        margin: 0 0 0 -6%;
-    }
-}
+
 @media screen and (max-width: 746px)
 {
 .all-box
