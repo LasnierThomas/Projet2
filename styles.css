@@ -379,31 +379,21 @@ body
 color: black;
 text-decoration: none;
 }
-
 .host-title
-{
-    
+{  
     display: flex;
     margin-left: 3%;
-    font-size: 1.9em;
-    
-    
-  
+    font-size: 1.9em; 
 }
 
 .all-host
 {
-    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
     justify-content: center;
-    
-
 }
-
-
 .host-box
 {
     background-color: white;
@@ -415,10 +405,7 @@ text-decoration: none;
     width: 30%;
     line-height:10%;
     transition: all 0.1s ease;
-    
-    
 }
-
 .host-box:hover
 {
     transform:scale(1.02);
@@ -428,37 +415,24 @@ text-decoration: none;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
-    
-  
+    margin: 0px; 
 }
-
 .host-box-picture img
-{
-    
+{   
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     border-radius: 30px 30px 0 0;
     height: 115px;
     object-fit: cover;
-    padding: 10px;
-    
-    
+    padding: 10px;   
 }
-
-
 .host-box-title
-{
-    
-    
+{   
     display: flex;
     flex-flow:column wrap;
     padding: 0px 0px 0px 15px;
-    
-
 }
-
 .host-h3
 {
     margin: 4px 0 0 0;
@@ -467,7 +441,6 @@ text-decoration: none;
     font-weight: bold;
     text-decoration: none;
 }
-
 .host-p
 {
     padding: 4px;
@@ -481,8 +454,7 @@ text-decoration: none;
    color: #0065FC;
     display: revert;
     flex-wrap: wrap;
-    padding: 0 0px 10px 17px;
-  
+    padding: 0 0px 10px 17px; 
 }
 .host-button
 {
