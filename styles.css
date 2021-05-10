@@ -257,9 +257,7 @@ body
 {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-   
-   
+    margin: auto;  
 }
 .popular
 {
@@ -268,45 +266,29 @@ body
     display: flex;
     flex-direction: column;
     width: 31%;
-    margin-left: 2%;
-    
-    
-    
+    margin-left: 2%;   
 }
-
 .group-popular-title-logo
 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;   
 }
-
 .popular-title
-{
-    
-    font-size: 1.9em;
-    
+{    
+    font-size: 1.9em;   
 }
-
 .popular-logo
 {
     width: 20%;
 }
-
-
-
 .all-popular
 {
-    
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    width: 100%;
-    
-    
+    width: 100%;    
 }
-
 .popular-box
 {
     display: flex;
@@ -316,30 +298,24 @@ body
     margin: 5% 0 0 0;
     width: 90%;
     transition: all 0.1s ease;
-     
 }
-
 .popular-box:hover
 {
     transform:scale(1.02);
 }
-
 .link-popular a
-
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     text-decoration: none;
     color: black;
-
 }
 .popular-box-picture
 {
     display: flex;
     width: 100%;
-    margin: 0;
-    
+    margin: 0;    
 }
 .popular-box-picture img
 {
@@ -349,16 +325,13 @@ body
     object-fit: cover;
     padding: 10px;
 }
-
 .popular-box-title
 {
     display: inline;
     flex-flow: column wrap;
     width: 64%;
-    margin-top: 9px;
-    
+    margin-top: 9px;   
 }
-
 .popular-h3
 {
     
@@ -366,37 +339,26 @@ body
     font-size: 1.2em;
     font-weight: bold;
     margin: 0;
-    
-
 }
 .popular-p
 {
     margin: 2% 0 17% 0px;
     font-size: 1.2em;
-   
-    
 }
-
-
 .popular-box-star
 {
     display: inline;
     width: 100%;
-    margin: -8% 0% 0% 37%;
-    
+    margin: -8% 0% 0% 37%;    
 }
-
 .starok
 { 
     color: #0065FC;
 }
-
 .grey-star
-
 {
     color: grey;
-    fill: grey;
-    
+    fill: grey;  
 }
 
 
