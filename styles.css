@@ -408,13 +408,13 @@ img {
 .popular-box-picture
 {
     display: flex;
-    width: 35%;
+    width: 100%;
     margin: 0;
     
 }
 .popular-box-picture img
 {
-    width: 87%;
+    width: 33%;
     border-radius: 30px 0px 0 30px;
     height: 130px;
     object-fit: cover;
@@ -653,7 +653,7 @@ text-decoration: none;
     flex-flow: column wrap;
     margin: 0px;
     width: 27%;
-    height: 60%;
+    height: 59%;
     position: relative;
     top: -3.5%;
     left: -10%;
@@ -673,13 +673,15 @@ text-decoration: none;
     display: flex;
     width: 100%;
     margin: 0px;
-    height: 162%;
+    height: 149%;
+    flex-direction: column;
 }
 .activity-box-picture1 img
 
 {
     border-radius: 20px 20px 0 0;
     width:100%;
+    height: 92%;
     display: flex;
     flex-wrap: wrap;
     object-fit: cover;
@@ -705,7 +707,7 @@ text-decoration: none;
     flex-flow: column wrap;
     margin: 5px;
     width: 26%;
-    height: 32%;
+    height: 30%;
     position: relative;
     top: -18%;
     left: -7.5%;
@@ -721,7 +723,7 @@ text-decoration: none;
 {
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column ;
     margin: 0px;
     height: 40%;
 
@@ -732,7 +734,7 @@ text-decoration: none;
     display: flex;
     border-radius: 20px 20px 0 0;
     width: 100%;
-    height: 100%;
+    height: 191%;
     object-fit: cover;
 }
 .activity-box3
@@ -760,7 +762,7 @@ text-decoration: none;
 {
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column ;
     margin: 0px;
     height: 59%;
 
@@ -771,7 +773,7 @@ text-decoration: none;
     display: flex;
     border-radius: 20px 20px 0 0;
     width: 100%;
-    height: 100%;
+    height: 116%;
     object-fit: cover;
 }
 
@@ -803,12 +805,14 @@ text-decoration: none;
     width: 100%;
     margin: 0px;
     height: 160%;
+    flex-direction: column;
 }
 .activity-box-picture4 img
 
 {
     border-radius: 20px 20px 0 0;
     width:100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     object-fit: cover;
@@ -849,7 +853,7 @@ text-decoration: none;
 {
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column ;
     margin: 0px;
     height: 51%;
 
@@ -860,7 +864,7 @@ text-decoration: none;
     display: flex;
     border-radius: 20px 20px 0 0;
     width: 100%;
-    height: 100%;
+    height: 137%;
     object-fit: cover;
 }
 
@@ -885,7 +889,7 @@ text-decoration: none;
 {
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column ;
     margin: 0px;
     height: 75%;
 
@@ -901,7 +905,7 @@ text-decoration: none;
     display: flex;
     border-radius: 20px 20px 0 0;
     width: 100%;
-    height: 100%;
+    height: 104%;
     object-fit: cover;
 }
 
@@ -1134,7 +1138,7 @@ footer
     }
     .popular-box-picture img 
     {
-        width: 100%;
+        width: 35%;
     }
     .popular-box-title
     {
@@ -1151,10 +1155,10 @@ footer
     .activity-box1, .activity-box4
     {
         position: static;
-       width: 32%;
-       height: 215px;
-       margin: 6px;
-       overflow: hidden;
+        width: 32%;
+        height: 40%;
+        margin: 6px;
+        overflow: hidden;
     }
     .activity-box2
     {
@@ -1166,7 +1170,7 @@ footer
     }
     .activity-box-picture2
     {
-        height: 27%;
+        height: 71%;
     }
     .activity-box-picture2 img
     {
@@ -1184,7 +1188,7 @@ footer
     }
     .activity-box-picture5
     {
-        height: 55%;
+        height: 71%;
     }
     .activity-box-picture5 img
     {
@@ -1203,7 +1207,7 @@ footer
     
     .activity-box-picture3
     {
-        height: 54%;
+        height: 71%;
     }
     .activity-box-picture3 img
     {
@@ -1221,7 +1225,7 @@ footer
     }
     .activity-box-picture6
     {
-        height: 50%;
+        height: 71%;
     }
     .activity-box-picture6 img
     {
@@ -1231,12 +1235,12 @@ footer
     }
    .activity-box-picture1,.activity-box-picture4
    {
-       height: 55%;
+       height: 41%;
    }
    .activity-box-picture1 img, .activity-box-picture4 img
    {
        width: 100%;
-       height: auto;
+       height: 181%;
        object-fit: cover;
    }
 
@@ -1261,7 +1265,7 @@ footer
     }
     .popular-box-picture img 
     {
-        width: 87%;
+        width: 34%;
     }
     .popular-box-title
     {
@@ -1270,6 +1274,7 @@ footer
     .popular-box-star
     {
         width: 100%;
+        padding-top: 4%;
         
     }
     .main-header .container
@@ -1318,53 +1323,61 @@ footer
     {
         width: 45%;
     }
+
+
     .activity-box1
     {
         width: 45%;
+        height: 20%;
     }
     .activity-box-picture1
     {
-        height: 49%;
+        height: 42%;
     }
     .activity-box2
     {
         width: 45%;
+        height: 20%;
     }
     .activity-box-picture2
     {
-        height: 26%;
+        height: 74%;
     }
     .activity-box4
     {
         width: 45%;
+        height: 20%;
     }
     .activity-box-picture4
     {
-        height: 49%;
+        height: 42%;
     }
     .activity-box5
     {
         width: 45%;
+        height: 20%;
     }
     .activity-box-picture5
     {
-        height: 49%;
+        height: 74%;
     }
     .activity-box3
     {
         width: 45%;
+        height: 20%;
     }
     .activity-box-picture3
     {
-        height: 50%;
+        height: 74%;
     }
     .activity-box6
     {
         width: 45%;
+        height: 20%;
     }
     .activity-box-picture6
     {
-        height: 46%;
+        height: 74%;
     }
 
 }
@@ -1455,11 +1468,12 @@ footer
 
    .popular-box-picture img
    {
-       width: 87%;
+       width: 33%;
    }
    .popular-box-star
    {
        width: 100%;
+       padding-top: 0%;
     
    }
    .host-box
@@ -1469,90 +1483,75 @@ footer
    .activity-box1
     {
         width: 100%;
+        height: 10%;
     }
     .activity-box-picture1
     {
-        height: 37%;
+        height: 43%;
     }
     .activity-box2
     {
         width: 100%;
+        height: 10%;
     }
     .activity-box-picture2
     {
-        height: 25%;
+        height: 77%;
     }
     .activity-box4
     {
         width: 100%;
+        height: 10%;
     }
     .activity-box-picture4
     {
-        height: 37%;
+        height: 43%;
     }
     .activity-box5
     {
         width: 100%;
+        height: 10%;
     }
     .activity-box-picture5
     {
-        height: 37%;
+        height: 77%;
     }
     .activity-box3
     {
         width: 100%;
+        height: 10%;
     }
     .activity-box-picture3
     {
-        height: 38%;
+        height:77%;
+
     }
     .activity-box6
     {
         width:100%;
+        height: 10%;
     }
     .activity-box-picture6
     {
-        height: 34%;
+        height: 77%;
     }
 }
 @media screen and (max-width: 534px) 
 {
-    .bloc-nav
-    {
-        margin: 0 0 0 -13%;
-    }
+    
     .main-nav li 
     {
         padding: 0px 25px 0px 51px;
     }
+    .main-nav a
+{
+    padding: 30px 55px 0px 27px;
+}
     .link-register
     {
         margin-right: -2%;
     }
-    .activity-box-picture1
-    {
-        height: 42%;
-    }
-    .activity-box-picture2
-    {
-        height: 26%;
-    }
-    .activity-box-picture3
-    {
-        height: 42%;
-    }
-    .activity-box-picture4
-    {
-        height: 42%;
-    }
-    .activity-box-picture5
-    {
-        height: 42%;
-    }
-    .activity-box-picture6
-    {
-        height: 38%;
-    }
+    
 }
 
 
