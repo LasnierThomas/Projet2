@@ -291,7 +291,7 @@ body
 }
 .popular-box
 {
-    display: flex;
+    
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 20px #9e9494;
@@ -347,6 +347,7 @@ body
 }
 .popular-box-star
 {
+    
     display: inline;
     width: 100%;
     margin: -8% 0% 0% 37%;    
@@ -452,7 +453,7 @@ text-decoration: none;
 {
     
    color: #0065FC;
-    display: revert;
+    
     flex-wrap: wrap;
     padding: 0 0px 10px 17px; 
 }
@@ -858,6 +859,15 @@ footer
         width: 100%;
         margin: 0 0 2% 0;   
     }
+    .popular-box
+    {
+        margin: 0% 0 4% 0px;
+    }
+    .popular-box-star
+    {
+        margin: -3% 0% 0% 35%;
+    }
+   
     .all-popular
     {   
         flex-direction: row;
@@ -912,6 +922,11 @@ footer
     .popular
     {
         width:100%
+    }
+    .popular-box-star
+    {
+        
+    margin: -3% 0% 0% 37%;
     }
     .popular-box-picture img 
     {
@@ -1104,7 +1119,7 @@ footer
     .popular-box-star
     {
         width: 100%;
-        padding-top: 4%;
+        padding-top: 0;
         
     }
     .main-header .container
